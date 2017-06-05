@@ -6883,10 +6883,8 @@ frxETHEUR:
     rr: call-put
   pip_size: 0.01
   quoted_currency: EUR
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHEUR
-  uses_dst_shifted_seasonality: 0
 frxETHUSD:
   asset: ETH
   display_name: ETH/USD
@@ -6901,10 +6899,8 @@ frxETHUSD:
     rr: call-put
   pip_size: 0.01
   quoted_currency: USD
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHUSD
-  uses_dst_shifted_seasonality: 0
 frxETHAUD:
   asset: ETH
   display_name: ETH/AUD
@@ -6919,10 +6915,8 @@ frxETHAUD:
     rr: call-put
   pip_size: 0.01
   quoted_currency: AUD
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHAUD
-  uses_dst_shifted_seasonality: 0
 frxETHJPY:
   asset: ETH
   display_name: ETH/JPY
@@ -6937,10 +6931,8 @@ frxETHJPY:
     rr: call-put
   pip_size: 0.01
   quoted_currency: JPY
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHJPY
-  uses_dst_shifted_seasonality: 0
 frxETHCAD:
   asset: ETH
   display_name: ETH/CAD
@@ -6955,10 +6947,8 @@ frxETHCAD:
     rr: call-put
   pip_size: 0.01
   quoted_currency: CAD
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHCAD
-  uses_dst_shifted_seasonality: 0
 frxETHCHF:
   asset: ETH
   display_name: ETH/CHF
@@ -6973,10 +6963,8 @@ frxETHCHF:
     rr: call-put
   pip_size: 0.01
   quoted_currency: CHF
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHCHF
-  uses_dst_shifted_seasonality: 0
 frxETHGBP:
   asset: ETH
   display_name: ETH/GBP
@@ -6991,10 +6979,8 @@ frxETHGBP:
     rr: call-put
   pip_size: 0.01
   quoted_currency: GBP
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHGBP
-  uses_dst_shifted_seasonality: 0
 frxETHNZD:
   asset: ETH
   display_name: ETH/NZD
@@ -7009,10 +6995,8 @@ frxETHNZD:
     rr: call-put
   pip_size: 0.01
   quoted_currency: NZD
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHNZD
-  uses_dst_shifted_seasonality: 0
 frxETHPLN:
   asset: ETH
   display_name: ETH/PLN
@@ -7027,10 +7011,8 @@ frxETHPLN:
     rr: call-put
   pip_size: 0.01
   quoted_currency: PLN
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHPLN
-  uses_dst_shifted_seasonality: 0
 frxETHNOK:
   asset: ETH
   display_name: ETH/NOK
@@ -7045,10 +7027,8 @@ frxETHNOK:
     rr: call-put
   pip_size: 0.01
   quoted_currency: NOK
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHNOK
-  uses_dst_shifted_seasonality: 0
 frxETHMXN:
   asset: ETH
   display_name: ETH/MXN
@@ -7063,10 +7043,8 @@ frxETHMXN:
     rr: call-put
   pip_size: 0.01
   quoted_currency: MXN
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHMXN
-  uses_dst_shifted_seasonality: 0
 frxETHSEK:
   asset: ETH
   display_name: ETH/SEK
@@ -7081,7 +7059,5 @@ frxETHSEK:
     rr: call-put
   pip_size: 0.01
   quoted_currency: SEK
-  spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxETHSEK
-  uses_dst_shifted_seasonality: 0
