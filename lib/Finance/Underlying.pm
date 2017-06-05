@@ -43,6 +43,17 @@ sub all_underlyings {
      map { $underlyings{$_} } sort keys %underlyings
 }
 
+=head2 symbols
+
+Return sorted list of all symbols.
+
+=cut
+
+sub symbols {
+    return sort keys %underlyings;
+}
+
+
 =head2 by_symbol
 
 Look up the underlying for the given symbol, returning a L<Finance::Underlying> instance.
