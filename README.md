@@ -92,6 +92,8 @@ There are two delta convention available:
 
 ### rr
 
+Risk reversal:
+
 - call-put
 - put-call
 
@@ -161,14 +163,6 @@ binary.com
 
 Hey! **The above document had some coding errors, which are explained below:**
 
-- Around line 176:
-
-    '=item' outside of any '=over'
-
-- Around line 180:
-
-    You forgot a '=back' before '=head3'
-
-- Around line 239:
+- Around line 245:
 
     Unterminated C<...> sequence

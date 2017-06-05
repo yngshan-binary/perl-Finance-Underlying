@@ -242,7 +242,7 @@ has submarket => (
 
 =head2 symbol
 
-The symbol of the underlying, for example C<frxUSDJPY> or C<
+The symbol of the underlying, for example C<frxUSDJPY> or C<WLDAUD>.
 
 =cut
 
