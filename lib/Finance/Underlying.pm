@@ -13,20 +13,16 @@ Finance::Underlying - Object representation of a financial asset
 
     use Finance::Underlying;
 
-    my $fa        = Finance::Underlying->instance;
-    my $sym_props = $fa->get_parameters_for('frxEURUSD');
-    print $sym_props->{pip_size}, "\n";
+    my $underlying = Finance::Underlying->by_symbol('frxEURUSD');
+    print $underlying->pip_size, "\n";
 
 =head1 DESCRIPTION
 
-This module implements functions to access information from
-underlyings.yml.  The class is a singleton. You do not need to
-explicitly initialize the class, it will be initialized automatically
-when you try to get an instance. By default it reads information
-from C<share/underlyings.yml>.
+Provides metadata on financial assets such as forex pairs.
 
 =cut
 
+use Moose;
 use namespace::autoclean;
 use YAML::XS qw(LoadFile);
 use File::ShareDir ();
