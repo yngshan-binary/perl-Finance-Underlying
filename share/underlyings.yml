@@ -8,39 +8,8 @@
 # - Wystup "FX Volatility Smile Construction" April 2010 paper
 # - Castagna "FX Options and Smile Risk" book
 #
-###############################################################################
-# NOTE: about the market_convention sections:
-#
-# These should mirror Bloomberg's Composite vol data conventions:
-# Steps to obtain Bloomberg vol convention:
+# Steps to obtain Bloomberg vol convention for the market_convention section:
 # - Go to OVDV then Settings->Data Settings->Conventions
-# Types of volatility conventions available:
-#     a) atm_setting:
-#         There are theree types:
-#         -atm_delta_neutral_straddle    (strike so that call delta=-put delta)
-#         -atm_forward                   (strike = forward price)
-#         -atm_spot                      (strike = spot)
-#     b) delta_premium_adjusted:
-#         There are two types:
-#         - 1 for premium adjusted . Premium adjusted means the actual hedge
-#           quantity must be adjusted by the premium received if the premium is
-#           paid in foreign currency.
-#         - 0 for no premium adjusted
-#           For futher explanation please refer to Wystup "FX Volatility Smile
-#           Construction" April 2010 paper, pg 5 and 6.
-#     c) delta_style:
-#         There are two delta convention available:
-#         - spot_delta : with a hedge in the spot market.
-#         - forward_delta: with a hedge in FX forward market
-#     d) rr: call-put / put-call
-#     e) bf:
-#        There are three types of butterfly available in Bloomberg setting:
-#        - (call+put)/2-atm  (which is quoted 1 vol strangle for Composite
-#          sources and 2 vol (a.k.a smile strangle) for BGN sources)
-#        - Base currency strangle - ATM (which is (base currency call + base
-#          currency put)- ATM)
-#        - Foreign currency strangle -ATM (which is (foreign currency call +
-#          foreign currency put)- ATM)
 ADSMI:
   asset: ADSMI
   display_name: Abu Dhabi Index

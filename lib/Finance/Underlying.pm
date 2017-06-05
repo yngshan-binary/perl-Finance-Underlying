@@ -173,11 +173,17 @@ paid in foreign currency.
 
 There are two delta convention available:
 
+=over 4
+
 =item * B<spot_delta> - with a hedge in the spot market.
 
 =item * B<forward_delta> - with a hedge in FX forward market
 
+=back
+
 =head3 rr
+
+Risk reversal:
 
 =over 4
 
