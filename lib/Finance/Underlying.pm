@@ -280,36 +280,6 @@ has symbol => (
 	is => 'ro',
 );
 
-=head2 $self->available_expiry_types
-
-Return list of all available bet sub types
-
-=cut
-
-sub available_expiry_types {
-    return qw(intraday daily tick);
-}
-
-=head2 $self->available_start_types
-
-Return list of all available start types
-
-=cut
-
-sub available_start_types {
-    return qw(spot forward);
-}
-
-=head2 $self->available_iv_categories
-
-Return list of all available iv contract categories
-
-=cut
-
-sub available_iv_categories {
-    return qw(callput endsinout touchnotouch staysinout);
-}
-
 no Moose;
 __PACKAGE__->meta->make_immutable;
 
