@@ -5361,7 +5361,6 @@ USYY:
   symbol: USYY
 WLDAUD:
   asset: AUD
-  commision_level: 3
   display_name: AUD Index
   exchange_name: FOREX
   instrument_type: smart_fx
@@ -5375,7 +5374,6 @@ WLDAUD:
   symbol: WLDAUD
 WLDEUR:
   asset: EUR
-  commision_level: 3
   display_name: EUR Index
   exchange_name: FOREX
   instrument_type: smart_fx
@@ -5389,7 +5387,6 @@ WLDEUR:
   symbol: WLDEUR
 WLDGBP:
   asset: GBP
-  commision_level: 3
   display_name: GBP Index
   exchange_name: FOREX
   instrument_type: smart_fx
@@ -5403,7 +5400,6 @@ WLDGBP:
   symbol: WLDGBP
 WLDUSD:
   asset: USD
-  commision_level: 3
   display_name: USD Index
   exchange_name: FOREX
   instrument_type: smart_fx
@@ -5447,7 +5443,6 @@ frxAUDCAD:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxAUDCAD
-  uses_dst_shifted_seasonality: 0
 frxAUDCHF:
   asset: AUD
   display_name: AUD/CHF
@@ -5464,7 +5459,6 @@ frxAUDCHF:
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxAUDCHF
-  uses_dst_shifted_seasonality: 0
 frxAUDHKD:
   asset: AUD
   display_name: AUD/HKD
@@ -5529,7 +5523,6 @@ frxAUDJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxAUDJPY
-  uses_dst_shifted_seasonality: 0
 frxAUDMXN:
   asset: AUD
   display_name: AUD/MXN
@@ -5578,7 +5571,6 @@ frxAUDNZD:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxAUDNZD
-  uses_dst_shifted_seasonality: 1
 frxAUDPLN:
   asset: AUD
   display_name: AUD/PLN
@@ -5595,7 +5587,6 @@ frxAUDPLN:
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxAUDPLN
-  uses_dst_shifted_seasonality: 1
 frxAUDSEK:
   asset: AUD
   display_name: AUD/SEK
@@ -5660,7 +5651,6 @@ frxAUDUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxAUDUSD
-  uses_dst_shifted_seasonality: 0
 frxAUDZAR:
   asset: AUD
   display_name: AUDZAR
@@ -5757,7 +5747,6 @@ frxBTCEUR:
   quoted_currency: EUR
   submarket: minor_pairs
   symbol: frxBTCEUR
-  uses_dst_shifted_seasonality: 0
 frxBTCUSD:
   asset: BTC
   display_name: BTC/USD
@@ -5774,7 +5763,6 @@ frxBTCUSD:
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxBTCUSD
-  uses_dst_shifted_seasonality: 0
 frxCADCHF:
   asset: CAD
   display_name: CAD/CHF
@@ -5855,7 +5843,6 @@ frxEURAUD:
   quoted_currency: AUD
   submarket: major_pairs
   symbol: frxEURAUD
-  uses_dst_shifted_seasonality: 0
 frxEURCAD:
   asset: EUR
   display_name: EUR/CAD
@@ -5872,7 +5859,6 @@ frxEURCAD:
   quoted_currency: CAD
   submarket: major_pairs
   symbol: frxEURCAD
-  uses_dst_shifted_seasonality: 1
 frxEURCHF:
   asset: EUR
   display_name: EUR/CHF
@@ -5905,7 +5891,6 @@ frxEURGBP:
   quoted_currency: GBP
   submarket: major_pairs
   symbol: frxEURGBP
-  uses_dst_shifted_seasonality: 0
 frxEURHKD:
   asset: EUR
   display_name: EUR/HKD
@@ -5970,7 +5955,6 @@ frxEURJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxEURJPY
-  uses_dst_shifted_seasonality: 1
 frxEURMXN:
   asset: EUR
   display_name: EUR/MXN
@@ -6003,7 +5987,6 @@ frxEURNOK:
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxEURNOK
-  uses_dst_shifted_seasonality: 1
 frxEURNZD:
   asset: EUR
   display_name: EUR/NZD
@@ -6020,7 +6003,6 @@ frxEURNZD:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxEURNZD
-  uses_dst_shifted_seasonality: 1
 frxEURPLN:
   asset: EUR
   display_name: EUR/PLN
@@ -6101,7 +6083,6 @@ frxEURUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxEURUSD
-  uses_dst_shifted_seasonality: 1
 frxEURZAR:
   asset: EUR
   display_name: EUR/ZAR
@@ -6150,7 +6131,6 @@ frxGBPAUD:
   quoted_currency: AUD
   submarket: major_pairs
   symbol: frxGBPAUD
-  uses_dst_shifted_seasonality: 0
 frxGBPCAD:
   asset: GBP
   display_name: GBP/CAD
@@ -6167,7 +6147,6 @@ frxGBPCAD:
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxGBPCAD
-  uses_dst_shifted_seasonality: 0
 frxGBPCHF:
   asset: GBP
   display_name: GBP/CHF
@@ -6248,7 +6227,6 @@ frxGBPJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxGBPJPY
-  uses_dst_shifted_seasonality: 1
 frxGBPMXN:
   asset: GBP
   display_name: GBP/MXN
@@ -6281,7 +6259,6 @@ frxGBPNOK:
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxGBPNOK
-  uses_dst_shifted_seasonality: 0
 frxGBPNZD:
   asset: GBP
   display_name: GBP/NZD
@@ -6298,7 +6275,6 @@ frxGBPNZD:
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxGBPNZD
-  uses_dst_shifted_seasonality: 1
 frxGBPPLN:
   asset: GBP
   display_name: GBP/PLN
@@ -6315,7 +6291,6 @@ frxGBPPLN:
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxGBPPLN
-  uses_dst_shifted_seasonality: 1
 frxGBPSEK:
   asset: GBP
   display_name: GBP/SEK
@@ -6380,7 +6355,6 @@ frxGBPUSD:
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxGBPUSD
-  uses_dst_shifted_seasonality: 0
 frxGBPZAR:
   asset: GBP
   display_name: GBP/ZAR
@@ -6445,7 +6419,6 @@ frxNZDUSD:
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxNZDUSD
-  uses_dst_shifted_seasonality: 1
 frxUSDAED:
   asset: USD
   display_name: USD/AED
@@ -6478,7 +6451,6 @@ frxUSDCAD:
   quoted_currency: CAD
   submarket: major_pairs
   symbol: frxUSDCAD
-  uses_dst_shifted_seasonality: 1
 frxUSDCHF:
   asset: USD
   display_name: USD/CHF
@@ -6559,7 +6531,6 @@ frxUSDJPY:
   quoted_currency: JPY
   submarket: major_pairs
   symbol: frxUSDJPY
-  uses_dst_shifted_seasonality: 1
 frxUSDMXN:
   asset: USD
   display_name: USD/MXN
@@ -6592,7 +6563,6 @@ frxUSDNOK:
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxUSDNOK
-  uses_dst_shifted_seasonality: 1
 frxUSDPLN:
   asset: USD
   display_name: USD/PLN
@@ -6625,7 +6595,6 @@ frxUSDSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxUSDSEK
-  uses_dst_shifted_seasonality: 1
 frxUSDSGD:
   asset: USD
   display_name: USD/SGD
@@ -6740,7 +6709,6 @@ frxXAGUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXAGUSD
-  uses_dst_shifted_seasonality: 1
 frxXAUAUD:
   asset: XAU
   display_name: Gold/AUD
@@ -6807,7 +6775,6 @@ frxXAUUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXAUUSD
-  uses_dst_shifted_seasonality: 1
 frxXPDAUD:
   asset: XPD
   display_name: XPD/AUD
