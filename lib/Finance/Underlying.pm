@@ -241,6 +241,8 @@ has market_convention => (
 
 =head2 pip_size
 
+How large the spot pip is.
+
 =cut
 
 has pip_size => (
@@ -249,6 +251,9 @@ has pip_size => (
 
 =head2 quoted_currency
 
+The second half of a forex pair - indicates the currency that this underlying is quoted in,
+or the currency in which a stock or stock index is quoted.
+
 =cut
 
 has quoted_currency => (
@@ -256,6 +261,8 @@ has quoted_currency => (
 );
 
 =head2 submarket
+
+Classification for the underlying, see also L</market>.
 
 =cut
 
