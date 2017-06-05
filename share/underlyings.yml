@@ -2993,7 +2993,6 @@ OTC_SASEIDX:
   submarket: otc_index
   symbol: OTC_SASEIDX
 OTC_SHSZ300:
-  active: 1
   asset: OTC_SHSZ300
   display_name: Shenzhen 300 OTC Index
   exchange_name: SZSE
