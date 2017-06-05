@@ -89,7 +89,7 @@ has display_name => (
 
 The symbol of the exchange this underlying is traded on.
 
-See L<Finance::Exchange> for more details.
+See C<Finance::Exchange>. for more details.
 
 =cut
 
