@@ -27,22 +27,38 @@ from C<share/underlyings.yml>.
 
 =cut
 
-use MooseX::Singleton;
 use namespace::autoclean;
 use YAML::XS qw(LoadFile);
 use File::ShareDir ();
 
 my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
 
-has all_parameters => (
-    is      => 'ro',
-    default => sub { $param },
-);
+my %underlyings = map {; $_ => __PACKAGE__->new(%{$param->{$_}}) } keys %$param;
 
-has _cached_underlyings => (
-    is      => 'ro',
-    default => sub { {} },
-);
+=head1 CLASS METHODS
+
+=head2 all_underlyings
+
+Returns a list of all underlyings, ordered by symbol.
+
+=cut
+
+sub all_underlyings {
+     map { $underlyings{$_} } sort keys %underlyings
+}
+
+=head2 by_symbol
+
+Look up the underlying for the given symbol, returning a L<Finance::Underlying> instance.
+
+=cut
+
+sub by_symbol {
+    my (undef, $symbol) = @_;
+    return $underlyings{$symbol} // die "unknown underlying $symbol";
+}
+
+=head1 ATTRIBUTES
 
 =head2 asset
 

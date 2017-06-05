@@ -18,6 +18,18 @@ explicitly initialize the class, it will be initialized automatically
 when you try to get an instance. By default it reads information
 from `share/underlyings.yml`.
 
+# CLASS METHODS
+
+## all\_underlyings
+
+Returns a list of all underlyings, ordered by symbol.
+
+## by\_symbol
+
+Look up the underlying for the given symbol, returning a [Finance::Underlying](https://metacpan.org/pod/Finance::Underlying) instance.
+
+# ATTRIBUTES
+
 ## asset
 
 The asset being quoted, for example `USD` for the `frxUSDJPY` underlying.
