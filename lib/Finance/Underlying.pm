@@ -280,51 +280,6 @@ has symbol => (
 	is => 'ro',
 );
 
-
-=head2 $self->cached_underlyings
-
-Return reference to the hash containing previously created underlying objects.
-If underlyings.yml changed, cache will be flushed.
-
-=cut
-
-sub cached_underlyings {
-    my $self = shift;
-    return $self->_cached_underlyings;
-}
-
-=head2 $self->symbols
-
-Return list of all underlyings from the db
-
-=cut
-
-sub symbols {
-    my $self = shift;
-    return keys %{$self->all_parameters};
-}
-
-=head2 $self->get_parameters_for($symbol)
-
-Return reference to hash with parameters for given symbol.
-
-=cut
-
-sub get_parameters_for {
-    my ($self, $underlying) = @_;
-    return $self->all_parameters->{$underlying};
-}
-
-=head2 $self->available_contract_categories
-
-Return list of all available contract categories
-
-=cut
-
-sub available_contract_categories {
-    return qw(asian digits callput endsinout touchnotouch staysinout);
-}
-
 =head2 $self->available_expiry_types
 
 Return list of all available bet sub types
@@ -343,16 +298,6 @@ Return list of all available start types
 
 sub available_start_types {
     return qw(spot forward);
-}
-
-=head2 $self->available_barrier_categories
-
-Return list of all available barrier_categories
-
-=cut
-
-sub available_barrier_categories {
-    return qw(euro_atm euro_non_atm american non_financial asian);
 }
 
 =head2 $self->available_iv_categories
