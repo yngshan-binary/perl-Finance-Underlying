@@ -6867,8 +6867,6 @@ frxXPTUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPTUSD
-## For bitcoin quanto pairs, forward_feed is set to false to avoid
-## implied rates application.
 frxBTCEUR:
   asset: BTC
   display_name: BTC/EUR
@@ -7061,8 +7059,6 @@ frxBTCSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxBTCSEK
-# For Litecoin quanto pairs, forward_feed is set to false to avoid
-## implied rates application.
 frxLTCEUR:
   asset: LTC
   display_name: LTC/EUR
@@ -7255,8 +7251,6 @@ frxLTCSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxLTCSEK
-## For Ethereum quanto pairs, forward_feed is set to false to avoid
-## implied rates application.
 frxETHEUR:
   asset: ETH
   display_name: ETH/EUR
