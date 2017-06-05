@@ -6867,3 +6867,221 @@ frxXPTUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPTUSD
+## For Ethereum quanto pairs, forward_feed is set to false to avoid
+## implied rates application.
+frxETHEUR:
+  asset: ETH
+  display_name: ETH/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: EUR
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHEUR
+  uses_dst_shifted_seasonality: 0
+frxETHUSD:
+  asset: ETH
+  display_name: ETH/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHUSD
+  uses_dst_shifted_seasonality: 0
+frxETHAUD:
+  asset: ETH
+  display_name: ETH/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: AUD
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHAUD
+  uses_dst_shifted_seasonality: 0
+frxETHJPY:
+  asset: ETH
+  display_name: ETH/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: JPY
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHJPY
+  uses_dst_shifted_seasonality: 0
+frxETHCAD:
+  asset: ETH
+  display_name: ETH/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: CAD
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHCAD
+  uses_dst_shifted_seasonality: 0
+frxETHCHF:
+  asset: ETH
+  display_name: ETH/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: CHF
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHCHF
+  uses_dst_shifted_seasonality: 0
+frxETHGBP:
+  asset: ETH
+  display_name: ETH/GBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: GBP
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHGBP
+  uses_dst_shifted_seasonality: 0
+frxETHNZD:
+  asset: ETH
+  display_name: ETH/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: NZD
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHNZD
+  uses_dst_shifted_seasonality: 0
+frxETHPLN:
+  asset: ETH
+  display_name: ETH/PLN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: PLN
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHPLN
+  uses_dst_shifted_seasonality: 0
+frxETHNOK:
+  asset: ETH
+  display_name: ETH/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: NOK
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHNOK
+  uses_dst_shifted_seasonality: 0
+frxETHMXN:
+  asset: ETH
+  display_name: ETH/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: MXN
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHMXN
+  uses_dst_shifted_seasonality: 0
+frxETHSEK:
+  asset: ETH
+  display_name: ETH/SEK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: SEK
+  spot_spread_size: 6
+  submarket: minor_pairs
+  symbol: frxETHSEK
+  uses_dst_shifted_seasonality: 0
