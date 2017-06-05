@@ -23,13 +23,10 @@ Provides metadata on financial assets such as forex pairs.
 =cut
 
 use Moo;
-use namespace::autoclean;
 use YAML::XS qw(LoadFile);
 use File::ShareDir ();
 
-my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
-
-my %underlyings = map {; $_ => __PACKAGE__->new(%{$param->{$_}}) } keys %$param;
+my %underlyings;
 
 =head1 CLASS METHODS
 
@@ -75,6 +72,7 @@ The asset being quoted, for example C<USD> for the C<frxUSDJPY> underlying.
 
 has asset => (
 	is => 'ro',
+required => 1,
 );
 
 =head2 display_name
@@ -279,6 +277,11 @@ The symbol of the underlying, for example C<frxUSDJPY> or C<WLDAUD>.
 has symbol => (
 	is => 'ro',
 );
+
+{
+	my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
+	%underlyings = map {; $_ => __PACKAGE__->new($param->{$_}) } keys %$param;
+}
 
 1;
 
