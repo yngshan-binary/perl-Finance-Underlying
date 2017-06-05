@@ -116,7 +116,7 @@ foreign currency put)- ATM)
 
 ## symbol
 
-The symbol of the underlying, for example `frxUSDJPY` or ``
+The symbol of the underlying, for example `frxUSDJPY` or `WLDAUD`.
 
 ## $self->cached\_underlyings
 
@@ -158,11 +158,3 @@ Return list of all available iv contract categories
 # AUTHOR
 
 binary.com
-
-# POD ERRORS
-
-Hey! **The above document had some coding errors, which are explained below:**
-
-- Around line 245:
-
-    Unterminated C<...> sequence
