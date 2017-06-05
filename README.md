@@ -19,6 +19,10 @@ Provides metadata on financial assets such as forex pairs.
 
 Returns a list of all underlyings, ordered by symbol.
 
+## symbols
+
+Return sorted list of all symbols.
+
 ## by\_symbol
 
 Look up the underlying for the given symbol, returning a [Finance::Underlying](https://metacpan.org/pod/Finance::Underlying) instance.
@@ -117,46 +121,20 @@ foreign currency put)- ATM)
 
 ## pip\_size
 
+How large the spot pip is.
+
 ## quoted\_currency
 
+The second half of a forex pair - indicates the currency that this underlying is quoted in,
+or the currency in which a stock or stock index is quoted.
+
 ## submarket
+
+Classification for the underlying, see also ["market"](#market).
 
 ## symbol
 
 The symbol of the underlying, for example `frxUSDJPY` or `WLDAUD`.
-
-## $self->cached\_underlyings
-
-Return reference to the hash containing previously created underlying objects.
-If underlyings.yml changed, cache will be flushed.
-
-## $self->symbols
-
-Return list of all underlyings from the db
-
-## $self->get\_parameters\_for($symbol)
-
-Return reference to hash with parameters for given symbol.
-
-## $self->available\_contract\_categories
-
-Return list of all available contract categories
-
-## $self->available\_expiry\_types
-
-Return list of all available bet sub types
-
-## $self->available\_start\_types
-
-Return list of all available start types
-
-## $self->available\_barrier\_categories
-
-Return list of all available barrier\_categories
-
-## $self->available\_iv\_categories
-
-Return list of all available iv contract categories
 
 # SEE ALSO
 
