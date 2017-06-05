@@ -6695,8 +6695,6 @@ frxXAGUSD:
   asset: XAG
   display_name: Silver/USD
   exchange_name: METAL
-  inefficient_periods:
-    start: 21h
   instrument_type: commodities
   market: commodities
   market_convention:
@@ -6761,8 +6759,6 @@ frxXAUUSD:
   asset: XAU
   display_name: Gold/USD
   exchange_name: METAL
-  inefficient_periods:
-    start: 21h
   instrument_type: commodities
   market: commodities
   market_convention:
