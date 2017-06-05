@@ -2030,20 +2030,6 @@ FUTGPSI20:
   quoted_currency: EUR
   submarket: europe_africa_future
   symbol: FUTGPSI20
-FUTGRTSI:
-  asset: FUTGRTSI
-  display_name: RTSI Generic Future
-  divisor: 100
-  exchange_name: MOF
-  instrument_type: future
-  market: futures
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.0001
-  quoted_currency: USD
-  submarket: europe_africa_future
-  symbol: FUTGRTSI
 FUTGSP400:
   asset: FUTGSP400
   display_name: S&P MidCap 400 Generic Future
