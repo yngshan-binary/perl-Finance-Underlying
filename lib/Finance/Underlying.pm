@@ -22,7 +22,7 @@ Provides metadata on financial assets such as forex pairs.
 
 =cut
 
-use Moose;
+use Moo;
 use namespace::autoclean;
 use YAML::XS qw(LoadFile);
 use File::ShareDir ();
@@ -279,9 +279,6 @@ The symbol of the underlying, for example C<frxUSDJPY> or C<WLDAUD>.
 has symbol => (
 	is => 'ro',
 );
-
-no Moose;
-__PACKAGE__->meta->make_immutable;
 
 1;
 

@@ -1,5 +1,4 @@
-requires 'Moose';
-requires 'MooseX::Singleton';
+requires 'Moo';
 requires 'namespace::autoclean';
 requires 'YAML::XS';
 requires 'File::ShareDir';
