@@ -7443,3 +7443,196 @@ frxETHSEK:
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxETHSEK
+# Ethereum Classic
+frxETCEUR:
+  asset: ETC
+  display_name: ETC/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: minor_pairs
+  symbol: frxETCEUR
+frxETCUSD:
+  asset: ETC
+  display_name: ETC/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxETCUSD
+frxETCAUD:
+  asset: ETC
+  display_name: ETC/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: minor_pairs
+  symbol: frxETCAUD
+frxETCJPY:
+  asset: ETC
+  display_name: ETC/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxETCJPY
+frxETCCAD:
+  asset: ETC
+  display_name: ETC/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxETCCAD
+frxETCCHF:
+  asset: ETC
+  display_name: ETC/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxETCCHF
+frxETCGBP:
+  asset: ETC
+  display_name: ETC/GBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: GBP
+  submarket: minor_pairs
+  symbol: frxETCGBP
+frxETCNZD:
+  asset: ETC
+  display_name: ETC/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxETCNZD
+frxETCPLN:
+  asset: ETC
+  display_name: ETC/PLN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: PLN
+  submarket: minor_pairs
+  symbol: frxETCPLN
+frxETCNOK:
+  asset: ETC
+  display_name: ETC/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxETCNOK
+frxETCMXN:
+  asset: ETC
+  display_name: ETC/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxETCMXN
+frxETCSEK:
+  asset: ETC
+  display_name: ETC/SEK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: SEK
+  submarket: minor_pairs
+  symbol: frxETCSEK
