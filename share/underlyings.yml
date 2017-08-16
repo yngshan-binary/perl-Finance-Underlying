@@ -2987,6 +2987,19 @@ OTC_SPC:
   quoted_currency: USD
   submarket: otc_index
   symbol: OTC_SPC
+OTC_SPC100:
+  asset: OTC_SPC100
+  display_name: US 100 OTC Index
+  exchange_name: NYSE_SPC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_SPC100
 OTC_SPTSX60:
   asset: OTC_SPTSX60
   display_name: Canadian OTC Index
@@ -3013,6 +3026,19 @@ OTC_SSECOMP:
   quoted_currency: CNY
   submarket: otc_index
   symbol: OTC_SSECOMP
+OTC_SX5E:
+  asset: OTC_SX5E
+  display_name: Euro 50 OTC Index
+  exchange_name: STOXX
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: europe_africa
+  symbol: OTC_SX5E
 OTC_SZSECOMP:
   asset: OTC_SZSECOMP
   display_name: Shenzhen OTC Index
@@ -3026,6 +3052,19 @@ OTC_SZSECOMP:
   quoted_currency: CNY
   submarket: otc_index
   symbol: OTC_SZSECOMP
+OTC_TOP40:
+  asset: OTC_TOP40
+  display_name: South African OTC Index
+  exchange_name: JSE
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ZAR
+  submarket: europe_africa
+  symbol: OTC_TOP40
 PSI20:
   asset: PSI20
   display_name: Portuguese Index
