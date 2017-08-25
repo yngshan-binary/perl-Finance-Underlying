@@ -10,6 +10,7 @@
 #
 # Steps to obtain Bloomberg vol convention for the market_convention section:
 # - Go to OVDV then Settings->Data Settings->Conventions
+---
 ADSMI:
   asset: ADSMI
   display_name: Abu Dhabi Index
@@ -3117,19 +3118,6 @@ RTSI:
   quoted_currency: USD
   submarket: europe_africa
   symbol: RTSI
-R_100:
-  asset: R_100
-  display_name: Volatility 100 Index
-  exchange_name: RANDOM
-  instrument_type: stockindex
-  market: volidx
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ~
-  submarket: random_index
-  symbol: R_100
 R_10:
   asset: R_10
   display_name: Volatility 10 Index
@@ -3143,6 +3131,19 @@ R_10:
   quoted_currency: ~
   submarket: random_index
   symbol: R_10
+R_100:
+  asset: R_100
+  display_name: Volatility 100 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: volidx
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: R_100
 R_25:
   asset: R_25
   display_name: Volatility 25 Index
@@ -5738,38 +5739,6 @@ frxBROUSD:
   quoted_currency: USD
   submarket: energy
   symbol: frxBROUSD
-frxBTCEUR:
-  asset: BTC
-  display_name: BTC/EUR
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.0001
-  quoted_currency: EUR
-  submarket: minor_pairs
-  symbol: frxBTCEUR
-frxBTCUSD:
-  asset: BTC
-  display_name: BTC/USD
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.0001
-  quoted_currency: USD
-  submarket: minor_pairs
-  symbol: frxBTCUSD
 frxCADCHF:
   asset: CAD
   display_name: CAD/CHF
@@ -6906,83 +6875,333 @@ frxXPTUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPTUSD
-frxBTCEUR:
-  asset: BTC
-  display_name: BTC/EUR
+frxBCHAED:
+  asset: BCH
+  display_name: BCH/AED
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
+  quoted_currency: AED
+  submarket: minor_pairs
+  symbol: frxBCHAED
+frxBCHAUD:
+  asset: BCH
+  display_name: BCH/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: AUD
+  submarket: minor_pairs
+  symbol: frxBCHAUD
+frxBCHBRL:
+  asset: BCH
+  display_name: BCH/BRL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: BRL
+  submarket: minor_pairs
+  symbol: frxBCHBRL
+frxBCHCAD:
+  asset: BCH
+  display_name: BCH/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxBCHCAD
+frxBCHCHF:
+  asset: BCH
+  display_name: BCH/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxBCHCHF
+frxBCHCNY:
+  asset: BCH
+  display_name: BCH/CNY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CNY
+  submarket: minor_pairs
+  symbol: frxBCHCNY
+frxBCHCZK:
+  asset: BCH
+  display_name: BCH/CZK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CZK
+  submarket: minor_pairs
+  symbol: frxBCHCZK
+frxBCHEGP:
+  asset: BCH
+  display_name: BCH/EGP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EGP
+  submarket: minor_pairs
+  symbol: frxBCHEGP
+frxBCHEUR:
+  asset: BCH
+  display_name: BCH/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
   quoted_currency: EUR
   submarket: minor_pairs
-  symbol: frxBTCEUR
-frxBTCUSD:
-  asset: BTC
-  display_name: BTC/USD
+  symbol: frxBCHEUR
+frxBCHGBP:
+  asset: BCH
+  display_name: BCH/GBP
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
+  quoted_currency: GBP
+  submarket: minor_pairs
+  symbol: frxBCHGBP
+frxBCHHKD:
+  asset: BCH
+  display_name: BCH/HKD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: HKD
+  submarket: minor_pairs
+  symbol: frxBCHHKD
+frxBCHIDR:
+  asset: BCH
+  display_name: BCH/IDR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: IDR
+  submarket: minor_pairs
+  symbol: frxBCHIDR
+frxBCHINR:
+  asset: BCH
+  display_name: BCH/INR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: INR
+  submarket: minor_pairs
+  symbol: frxBCHINR
+frxBCHJPY:
+  asset: BCH
+  display_name: BCH/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxBCHJPY
+frxBCHKRW:
+  asset: BCH
+  display_name: BCH/KRW
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KRW
+  submarket: minor_pairs
+  symbol: frxBCHKRW
+frxBCHKWD:
+  asset: BCH
+  display_name: BCH/KWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KWD
+  submarket: minor_pairs
+  symbol: frxBCHKWD
+frxBCHMXN:
+  asset: BCH
+  display_name: BCH/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxBCHMXN
+frxBCHNOK:
+  asset: BCH
+  display_name: BCH/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxBCHNOK
+frxBCHNZD:
+  asset: BCH
+  display_name: BCH/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxBCHNZD
+frxBCHPLN:
+  asset: BCH
+  display_name: BCH/PLN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: PLN
+  submarket: minor_pairs
+  symbol: frxBCHPLN
+frxBCHRUB:
+  asset: BCH
+  display_name: BCH/RUB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: RUB
+  submarket: minor_pairs
+  symbol: frxBCHRUB
+frxBCHSAR:
+  asset: BCH
+  display_name: BCH/SAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SAR
+  submarket: minor_pairs
+  symbol: frxBCHSAR
+frxBCHSEK:
+  asset: BCH
+  display_name: BCH/SEK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SEK
+  submarket: minor_pairs
+  symbol: frxBCHSEK
+frxBCHSGD:
+  asset: BCH
+  display_name: BCH/SGD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SGD
+  submarket: minor_pairs
+  symbol: frxBCHSGD
+frxBCHTRY:
+  asset: BCH
+  display_name: BCH/TRY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: TRY
+  submarket: minor_pairs
+  symbol: frxBCHTRY
+frxBCHUSD:
+  asset: BCH
+  display_name: BCH/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
   quoted_currency: USD
   submarket: minor_pairs
-  symbol: frxBTCUSD
+  symbol: frxBCHUSD
+frxBCHXAG:
+  asset: BCH
+  display_name: BCH/XAG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XAG
+  submarket: minor_pairs
+  symbol: frxBCHXAG
+frxBCHXAU:
+  asset: BCH
+  display_name: BCH/XAU
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XAU
+  submarket: minor_pairs
+  symbol: frxBCHXAU
+frxBCHZAR:
+  asset: BCH
+  display_name: BCH/ZAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: ZAR
+  submarket: minor_pairs
+  symbol: frxBCHZAR
+frxBTCAED:
+  asset: BTC
+  display_name: BTC/AED
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: AED
+  submarket: minor_pairs
+  symbol: frxBTCAED
 frxBTCAUD:
   asset: BTC
   display_name: BTC/AUD
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: AUD
   submarket: minor_pairs
   symbol: frxBTCAUD
-frxBTCJPY:
+frxBTCBRL:
   asset: BTC
-  display_name: BTC/JPY
+  display_name: BTC/BRL
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: JPY
+  pip_size: 0.0001
+  quoted_currency: BRL
   submarket: minor_pairs
-  symbol: frxBTCJPY
+  symbol: frxBTCBRL
 frxBTCCAD:
   asset: BTC
   display_name: BTC/CAD
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxBTCCAD
@@ -6992,45 +7211,147 @@ frxBTCCHF:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxBTCCHF
+frxBTCCNY:
+  asset: BTC
+  display_name: BTC/CNY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CNY
+  submarket: minor_pairs
+  symbol: frxBTCCNY
+frxBTCCZK:
+  asset: BTC
+  display_name: BTC/CZK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CZK
+  submarket: minor_pairs
+  symbol: frxBTCCZK
+frxBTCEGP:
+  asset: BTC
+  display_name: BTC/EGP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EGP
+  submarket: minor_pairs
+  symbol: frxBTCEGP
+frxBTCEUR:
+  asset: BTC
+  display_name: BTC/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EUR
+  submarket: minor_pairs
+  symbol: frxBTCEUR
 frxBTCGBP:
   asset: BTC
   display_name: BTC/GBP
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: GBP
   submarket: minor_pairs
   symbol: frxBTCGBP
+frxBTCHKD:
+  asset: BTC
+  display_name: BTC/HKD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: HKD
+  submarket: minor_pairs
+  symbol: frxBTCHKD
+frxBTCIDR:
+  asset: BTC
+  display_name: BTC/IDR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: IDR
+  submarket: minor_pairs
+  symbol: frxBTCIDR
+frxBTCINR:
+  asset: BTC
+  display_name: BTC/INR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: INR
+  submarket: minor_pairs
+  symbol: frxBTCINR
+frxBTCJPY:
+  asset: BTC
+  display_name: BTC/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxBTCJPY
+frxBTCKRW:
+  asset: BTC
+  display_name: BTC/KRW
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KRW
+  submarket: minor_pairs
+  symbol: frxBTCKRW
+frxBTCKWD:
+  asset: BTC
+  display_name: BTC/KWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KWD
+  submarket: minor_pairs
+  symbol: frxBTCKWD
+frxBTCMXN:
+  asset: BTC
+  display_name: BTC/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxBTCMXN
+frxBTCNOK:
+  asset: BTC
+  display_name: BTC/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxBTCNOK
 frxBTCNZD:
   asset: BTC
   display_name: BTC/NZD
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxBTCNZD
@@ -7040,526 +7361,137 @@ frxBTCPLN:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxBTCPLN
-frxBTCNOK:
+frxBTCRUB:
   asset: BTC
-  display_name: BTC/NOK
+  display_name: BTC/RUB
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: NOK
+  pip_size: 0.0001
+  quoted_currency: RUB
   submarket: minor_pairs
-  symbol: frxBTCNOK
-frxBTCMXN:
+  symbol: frxBTCRUB
+frxBTCSAR:
   asset: BTC
-  display_name: BTC/MXN
+  display_name: BTC/SAR
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: MXN
+  pip_size: 0.0001
+  quoted_currency: SAR
   submarket: minor_pairs
-  symbol: frxBTCMXN
+  symbol: frxBTCSAR
 frxBTCSEK:
   asset: BTC
   display_name: BTC/SEK
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxBTCSEK
-frxLTCEUR:
-  asset: LTC
-  display_name: LTC/EUR
+frxBTCSGD:
+  asset: BTC
+  display_name: BTC/SGD
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: EUR
+  pip_size: 0.0001
+  quoted_currency: SGD
   submarket: minor_pairs
-  symbol: frxLTCEUR
-frxLTCUSD:
-  asset: LTC
-  display_name: LTC/USD
+  symbol: frxBTCSGD
+frxBTCTRY:
+  asset: BTC
+  display_name: BTC/TRY
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
+  quoted_currency: TRY
+  submarket: minor_pairs
+  symbol: frxBTCTRY
+frxBTCUSD:
+  asset: BTC
+  display_name: BTC/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
   quoted_currency: USD
   submarket: minor_pairs
-  symbol: frxLTCUSD
-frxLTCAUD:
-  asset: LTC
-  display_name: LTC/AUD
+  symbol: frxBTCUSD
+frxBTCXAG:
+  asset: BTC
+  display_name: BTC/XAG
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: AUD
+  pip_size: 0.0001
+  quoted_currency: XAG
   submarket: minor_pairs
-  symbol: frxLTCAUD
-frxLTCJPY:
-  asset: LTC
-  display_name: LTC/JPY
+  symbol: frxBTCXAG
+frxBTCXAU:
+  asset: BTC
+  display_name: BTC/XAU
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: JPY
+  pip_size: 0.0001
+  quoted_currency: XAU
   submarket: minor_pairs
-  symbol: frxLTCJPY
-frxLTCCAD:
-  asset: LTC
-  display_name: LTC/CAD
+  symbol: frxBTCXAU
+frxBTCZAR:
+  asset: BTC
+  display_name: BTC/ZAR
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: CAD
+  pip_size: 0.0001
+  quoted_currency: ZAR
   submarket: minor_pairs
-  symbol: frxLTCCAD
-frxLTCCHF:
-  asset: LTC
-  display_name: LTC/CHF
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: CHF
-  submarket: minor_pairs
-  symbol: frxLTCCHF
-frxLTCGBP:
-  asset: LTC
-  display_name: LTC/GBP
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: GBP
-  submarket: minor_pairs
-  symbol: frxLTCGBP
-frxLTCNZD:
-  asset: LTC
-  display_name: LTC/NZD
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: NZD
-  submarket: minor_pairs
-  symbol: frxLTCNZD
-frxLTCPLN:
-  asset: LTC
-  display_name: LTC/PLN
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: PLN
-  submarket: minor_pairs
-  symbol: frxLTCPLN
-frxLTCNOK:
-  asset: LTC
-  display_name: LTC/NOK
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: NOK
-  submarket: minor_pairs
-  symbol: frxLTCNOK
-frxLTCMXN:
-  asset: LTC
-  display_name: LTC/MXN
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: MXN
-  submarket: minor_pairs
-  symbol: frxLTCMXN
-frxLTCSEK:
-  asset: LTC
-  display_name: LTC/SEK
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: SEK
-  submarket: minor_pairs
-  symbol: frxLTCSEK
-frxETHEUR:
-  asset: ETH
-  display_name: ETH/EUR
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: minor_pairs
-  symbol: frxETHEUR
-frxETHUSD:
-  asset: ETH
-  display_name: ETH/USD
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: minor_pairs
-  symbol: frxETHUSD
-frxETHAUD:
-  asset: ETH
-  display_name: ETH/AUD
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: AUD
-  submarket: minor_pairs
-  symbol: frxETHAUD
-frxETHJPY:
-  asset: ETH
-  display_name: ETH/JPY
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: JPY
-  submarket: minor_pairs
-  symbol: frxETHJPY
-frxETHCAD:
-  asset: ETH
-  display_name: ETH/CAD
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: CAD
-  submarket: minor_pairs
-  symbol: frxETHCAD
-frxETHCHF:
-  asset: ETH
-  display_name: ETH/CHF
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: CHF
-  submarket: minor_pairs
-  symbol: frxETHCHF
-frxETHGBP:
-  asset: ETH
-  display_name: ETH/GBP
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: GBP
-  submarket: minor_pairs
-  symbol: frxETHGBP
-frxETHNZD:
-  asset: ETH
-  display_name: ETH/NZD
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: NZD
-  submarket: minor_pairs
-  symbol: frxETHNZD
-frxETHPLN:
-  asset: ETH
-  display_name: ETH/PLN
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: PLN
-  submarket: minor_pairs
-  symbol: frxETHPLN
-frxETHNOK:
-  asset: ETH
-  display_name: ETH/NOK
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: NOK
-  submarket: minor_pairs
-  symbol: frxETHNOK
-frxETHMXN:
-  asset: ETH
-  display_name: ETH/MXN
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: MXN
-  submarket: minor_pairs
-  symbol: frxETHMXN
-frxETHSEK:
-  asset: ETH
-  display_name: ETH/SEK
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: SEK
-  submarket: minor_pairs
-  symbol: frxETHSEK
-# Ethereum Classic
-frxETCEUR:
+  symbol: frxBTCZAR
+frxETCAED:
   asset: ETC
-  display_name: ETC/EUR
+  display_name: ETC/AED
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: EUR
+  pip_size: 0.0001
+  quoted_currency: AED
   submarket: minor_pairs
-  symbol: frxETCEUR
-frxETCUSD:
-  asset: ETC
-  display_name: ETC/USD
-  exchange_name: FOREX
-  instrument_type: forex
-  market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: minor_pairs
-  symbol: frxETCUSD
+  symbol: frxETCAED
 frxETCAUD:
   asset: ETC
   display_name: ETC/AUD
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: AUD
   submarket: minor_pairs
   symbol: frxETCAUD
-frxETCJPY:
+frxETCBRL:
   asset: ETC
-  display_name: ETC/JPY
+  display_name: ETC/BRL
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: JPY
+  pip_size: 0.0001
+  quoted_currency: BRL
   submarket: minor_pairs
-  symbol: frxETCJPY
+  symbol: frxETCBRL
 frxETCCAD:
   asset: ETC
   display_name: ETC/CAD
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxETCCAD
@@ -7569,45 +7501,147 @@ frxETCCHF:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxETCCHF
+frxETCCNY:
+  asset: ETC
+  display_name: ETC/CNY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CNY
+  submarket: minor_pairs
+  symbol: frxETCCNY
+frxETCCZK:
+  asset: ETC
+  display_name: ETC/CZK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CZK
+  submarket: minor_pairs
+  symbol: frxETCCZK
+frxETCEGP:
+  asset: ETC
+  display_name: ETC/EGP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EGP
+  submarket: minor_pairs
+  symbol: frxETCEGP
+frxETCEUR:
+  asset: ETC
+  display_name: ETC/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EUR
+  submarket: minor_pairs
+  symbol: frxETCEUR
 frxETCGBP:
   asset: ETC
   display_name: ETC/GBP
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: GBP
   submarket: minor_pairs
   symbol: frxETCGBP
+frxETCHKD:
+  asset: ETC
+  display_name: ETC/HKD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: HKD
+  submarket: minor_pairs
+  symbol: frxETCHKD
+frxETCIDR:
+  asset: ETC
+  display_name: ETC/IDR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: IDR
+  submarket: minor_pairs
+  symbol: frxETCIDR
+frxETCINR:
+  asset: ETC
+  display_name: ETC/INR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: INR
+  submarket: minor_pairs
+  symbol: frxETCINR
+frxETCJPY:
+  asset: ETC
+  display_name: ETC/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxETCJPY
+frxETCKRW:
+  asset: ETC
+  display_name: ETC/KRW
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KRW
+  submarket: minor_pairs
+  symbol: frxETCKRW
+frxETCKWD:
+  asset: ETC
+  display_name: ETC/KWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KWD
+  submarket: minor_pairs
+  symbol: frxETCKWD
+frxETCMXN:
+  asset: ETC
+  display_name: ETC/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxETCMXN
+frxETCNOK:
+  asset: ETC
+  display_name: ETC/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxETCNOK
 frxETCNZD:
   asset: ETC
   display_name: ETC/NZD
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxETCNZD
@@ -7617,61 +7651,677 @@ frxETCPLN:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxETCPLN
-frxETCNOK:
+frxETCRUB:
   asset: ETC
-  display_name: ETC/NOK
+  display_name: ETC/RUB
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: NOK
+  pip_size: 0.0001
+  quoted_currency: RUB
   submarket: minor_pairs
-  symbol: frxETCNOK
-frxETCMXN:
+  symbol: frxETCRUB
+frxETCSAR:
   asset: ETC
-  display_name: ETC/MXN
+  display_name: ETC/SAR
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
-  quoted_currency: MXN
+  pip_size: 0.0001
+  quoted_currency: SAR
   submarket: minor_pairs
-  symbol: frxETCMXN
+  symbol: frxETCSAR
 frxETCSEK:
   asset: ETC
   display_name: ETC/SEK
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  market_convention:
-    atm_setting: atm_delta_neutral_straddle
-    bf: 2_vol
-    delta_premium_adjusted: 1
-    delta_style: spot_delta
-    rr: call-put
-  pip_size: 0.01
+  pip_size: 0.0001
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxETCSEK
+frxETCSGD:
+  asset: ETC
+  display_name: ETC/SGD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SGD
+  submarket: minor_pairs
+  symbol: frxETCSGD
+frxETCTRY:
+  asset: ETC
+  display_name: ETC/TRY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: TRY
+  submarket: minor_pairs
+  symbol: frxETCTRY
+frxETCUSD:
+  asset: ETC
+  display_name: ETC/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxETCUSD
+frxETCXAG:
+  asset: ETC
+  display_name: ETC/XAG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XAG
+  submarket: minor_pairs
+  symbol: frxETCXAG
+frxETCXAU:
+  asset: ETC
+  display_name: ETC/XAU
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XAU
+  submarket: minor_pairs
+  symbol: frxETCXAU
+frxETCZAR:
+  asset: ETC
+  display_name: ETC/ZAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: ZAR
+  submarket: minor_pairs
+  symbol: frxETCZAR
+frxETHAED:
+  asset: ETH
+  display_name: ETH/AED
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: AED
+  submarket: minor_pairs
+  symbol: frxETHAED
+frxETHAUD:
+  asset: ETH
+  display_name: ETH/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: AUD
+  submarket: minor_pairs
+  symbol: frxETHAUD
+frxETHBRL:
+  asset: ETH
+  display_name: ETH/BRL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: BRL
+  submarket: minor_pairs
+  symbol: frxETHBRL
+frxETHCAD:
+  asset: ETH
+  display_name: ETH/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxETHCAD
+frxETHCHF:
+  asset: ETH
+  display_name: ETH/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxETHCHF
+frxETHCNY:
+  asset: ETH
+  display_name: ETH/CNY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CNY
+  submarket: minor_pairs
+  symbol: frxETHCNY
+frxETHCZK:
+  asset: ETH
+  display_name: ETH/CZK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CZK
+  submarket: minor_pairs
+  symbol: frxETHCZK
+frxETHEGP:
+  asset: ETH
+  display_name: ETH/EGP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EGP
+  submarket: minor_pairs
+  symbol: frxETHEGP
+frxETHEUR:
+  asset: ETH
+  display_name: ETH/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EUR
+  submarket: minor_pairs
+  symbol: frxETHEUR
+frxETHGBP:
+  asset: ETH
+  display_name: ETH/GBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: GBP
+  submarket: minor_pairs
+  symbol: frxETHGBP
+frxETHHKD:
+  asset: ETH
+  display_name: ETH/HKD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: HKD
+  submarket: minor_pairs
+  symbol: frxETHHKD
+frxETHIDR:
+  asset: ETH
+  display_name: ETH/IDR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: IDR
+  submarket: minor_pairs
+  symbol: frxETHIDR
+frxETHINR:
+  asset: ETH
+  display_name: ETH/INR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: INR
+  submarket: minor_pairs
+  symbol: frxETHINR
+frxETHJPY:
+  asset: ETH
+  display_name: ETH/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxETHJPY
+frxETHKRW:
+  asset: ETH
+  display_name: ETH/KRW
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KRW
+  submarket: minor_pairs
+  symbol: frxETHKRW
+frxETHKWD:
+  asset: ETH
+  display_name: ETH/KWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KWD
+  submarket: minor_pairs
+  symbol: frxETHKWD
+frxETHMXN:
+  asset: ETH
+  display_name: ETH/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxETHMXN
+frxETHNOK:
+  asset: ETH
+  display_name: ETH/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxETHNOK
+frxETHNZD:
+  asset: ETH
+  display_name: ETH/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxETHNZD
+frxETHPLN:
+  asset: ETH
+  display_name: ETH/PLN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: PLN
+  submarket: minor_pairs
+  symbol: frxETHPLN
+frxETHRUB:
+  asset: ETH
+  display_name: ETH/RUB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: RUB
+  submarket: minor_pairs
+  symbol: frxETHRUB
+frxETHSAR:
+  asset: ETH
+  display_name: ETH/SAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SAR
+  submarket: minor_pairs
+  symbol: frxETHSAR
+frxETHSEK:
+  asset: ETH
+  display_name: ETH/SEK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SEK
+  submarket: minor_pairs
+  symbol: frxETHSEK
+frxETHSGD:
+  asset: ETH
+  display_name: ETH/SGD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SGD
+  submarket: minor_pairs
+  symbol: frxETHSGD
+frxETHTRY:
+  asset: ETH
+  display_name: ETH/TRY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: TRY
+  submarket: minor_pairs
+  symbol: frxETHTRY
+frxETHUSD:
+  asset: ETH
+  display_name: ETH/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxETHUSD
+frxETHXAG:
+  asset: ETH
+  display_name: ETH/XAG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XAG
+  submarket: minor_pairs
+  symbol: frxETHXAG
+frxETHXAU:
+  asset: ETH
+  display_name: ETH/XAU
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XAU
+  submarket: minor_pairs
+  symbol: frxETHXAU
+frxETHZAR:
+  asset: ETH
+  display_name: ETH/ZAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: ZAR
+  submarket: minor_pairs
+  symbol: frxETHZAR
+frxLTCAED:
+  asset: LTC
+  display_name: LTC/AED
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: AED
+  submarket: minor_pairs
+  symbol: frxLTCAED
+frxLTCAUD:
+  asset: LTC
+  display_name: LTC/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: AUD
+  submarket: minor_pairs
+  symbol: frxLTCAUD
+frxLTCBRL:
+  asset: LTC
+  display_name: LTC/BRL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: BRL
+  submarket: minor_pairs
+  symbol: frxLTCBRL
+frxLTCCAD:
+  asset: LTC
+  display_name: LTC/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxLTCCAD
+frxLTCCHF:
+  asset: LTC
+  display_name: LTC/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxLTCCHF
+frxLTCCNY:
+  asset: LTC
+  display_name: LTC/CNY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CNY
+  submarket: minor_pairs
+  symbol: frxLTCCNY
+frxLTCCZK:
+  asset: LTC
+  display_name: LTC/CZK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: CZK
+  submarket: minor_pairs
+  symbol: frxLTCCZK
+frxLTCEGP:
+  asset: LTC
+  display_name: LTC/EGP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EGP
+  submarket: minor_pairs
+  symbol: frxLTCEGP
+frxLTCEUR:
+  asset: LTC
+  display_name: LTC/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: EUR
+  submarket: minor_pairs
+  symbol: frxLTCEUR
+frxLTCGBP:
+  asset: LTC
+  display_name: LTC/GBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: GBP
+  submarket: minor_pairs
+  symbol: frxLTCGBP
+frxLTCHKD:
+  asset: LTC
+  display_name: LTC/HKD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: HKD
+  submarket: minor_pairs
+  symbol: frxLTCHKD
+frxLTCIDR:
+  asset: LTC
+  display_name: LTC/IDR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: IDR
+  submarket: minor_pairs
+  symbol: frxLTCIDR
+frxLTCINR:
+  asset: LTC
+  display_name: LTC/INR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: INR
+  submarket: minor_pairs
+  symbol: frxLTCINR
+frxLTCJPY:
+  asset: LTC
+  display_name: LTC/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxLTCJPY
+frxLTCKRW:
+  asset: LTC
+  display_name: LTC/KRW
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KRW
+  submarket: minor_pairs
+  symbol: frxLTCKRW
+frxLTCKWD:
+  asset: LTC
+  display_name: LTC/KWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: KWD
+  submarket: minor_pairs
+  symbol: frxLTCKWD
+frxLTCMXN:
+  asset: LTC
+  display_name: LTC/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxLTCMXN
+frxLTCNOK:
+  asset: LTC
+  display_name: LTC/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxLTCNOK
+frxLTCNZD:
+  asset: LTC
+  display_name: LTC/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxLTCNZD
+frxLTCPLN:
+  asset: LTC
+  display_name: LTC/PLN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: PLN
+  submarket: minor_pairs
+  symbol: frxLTCPLN
+frxLTCRUB:
+  asset: LTC
+  display_name: LTC/RUB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: RUB
+  submarket: minor_pairs
+  symbol: frxLTCRUB
+frxLTCSAR:
+  asset: LTC
+  display_name: LTC/SAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SAR
+  submarket: minor_pairs
+  symbol: frxLTCSAR
+frxLTCSEK:
+  asset: LTC
+  display_name: LTC/SEK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SEK
+  submarket: minor_pairs
+  symbol: frxLTCSEK
+frxLTCSGD:
+  asset: LTC
+  display_name: LTC/SGD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: SGD
+  submarket: minor_pairs
+  symbol: frxLTCSGD
+frxLTCTRY:
+  asset: LTC
+  display_name: LTC/TRY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: TRY
+  submarket: minor_pairs
+  symbol: frxLTCTRY
+frxLTCUSD:
+  asset: LTC
+  display_name: LTC/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxLTCUSD
+frxLTCXAG:
+  asset: LTC
+  display_name: LTC/XAG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XAG
+  submarket: minor_pairs
+  symbol: frxLTCXAG
+frxLTCXAU:
+  asset: LTC
+  display_name: LTC/XAU
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XAU
+  submarket: minor_pairs
+  symbol: frxLTCXAU
+frxLTCZAR:
+  asset: LTC
+  display_name: LTC/ZAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: ZAR
+  submarket: minor_pairs
+  symbol: frxLTCZAR
