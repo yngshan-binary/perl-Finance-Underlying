@@ -8325,3 +8325,153 @@ frxLTCZAR:
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxLTCZAR
+frxBCHBRO:
+  asset: BCH
+  display_name: BCH/BRO
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: BRO
+  submarket: minor_pairs
+  symbol: frxBCHBRO
+frxBCHXPD:
+  asset: BCH
+  display_name: BCH/XPD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPD
+  submarket: minor_pairs
+  symbol: frxBCHXPD
+frxBCHXPT:
+  asset: BCH
+  display_name: BCH/XPT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPT
+  submarket: minor_pairs
+  symbol: frxBCHXPT
+frxBTCBRO:
+  asset: BTC
+  display_name: BTC/BRO
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: BRO
+  submarket: minor_pairs
+  symbol: frxBTCBRO
+frxBTCXPD:
+  asset: BTC
+  display_name: BTC/XPD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPD
+  submarket: minor_pairs
+  symbol: frxBTCXPD
+frxBTCXPT:
+  asset: BTC
+  display_name: BTC/XPT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPT
+  submarket: minor_pairs
+  symbol: frxBTCXPT
+frxETCBRO:
+  asset: ETC
+  display_name: ETC/BRO
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: BRO
+  submarket: minor_pairs
+  symbol: frxETCBRO
+frxETCXPD:
+  asset: ETC
+  display_name: ETC/XPD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPD
+  submarket: minor_pairs
+  symbol: frxETCXPD
+frxETCXPT:
+  asset: ETC
+  display_name: ETC/XPT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPT
+  submarket: minor_pairs
+  symbol: frxETCXPT
+frxETHBRO:
+  asset: ETH
+  display_name: ETH/BRO
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: BRO
+  submarket: minor_pairs
+  symbol: frxETHBRO
+frxETHXPD:
+  asset: ETH
+  display_name: ETH/XPD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPD
+  submarket: minor_pairs
+  symbol: frxETHXPD
+frxETHXPT:
+  asset: ETH
+  display_name: ETH/XPT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPT
+  submarket: minor_pairs
+  symbol: frxETHXPT
+frxLTCBRO:
+  asset: LTC
+  display_name: LTC/BRO
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: BRO
+  submarket: minor_pairs
+  symbol: frxLTCBRO
+frxLTCXPD:
+  asset: LTC
+  display_name: LTC/XPD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPD
+  submarket: minor_pairs
+  symbol: frxLTCXPD
+frxLTCXPT:
+  asset: LTC
+  display_name: LTC/XPT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.0001
+  quoted_currency: XPT
+  submarket: minor_pairs
+  symbol: frxLTCXPT
