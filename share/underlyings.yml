@@ -8481,7 +8481,7 @@ frxDAIAED:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: AED
   submarket: minor_pairs
   symbol: frxDAIAED
@@ -8491,7 +8491,7 @@ frxDAIAUD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: AUD
   submarket: minor_pairs
   symbol: frxDAIAUD
@@ -8501,7 +8501,7 @@ frxDAIBRL:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: BRL
   submarket: minor_pairs
   symbol: frxDAIBRL
@@ -8511,7 +8511,7 @@ frxDAICAD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxDAICAD
@@ -8521,7 +8521,7 @@ frxDAICHF:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxDAICHF
@@ -8531,7 +8531,7 @@ frxDAICNY:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: CNY
   submarket: minor_pairs
   symbol: frxDAICNY
@@ -8541,7 +8541,7 @@ frxDAICZK:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: CZK
   submarket: minor_pairs
   symbol: frxDAICZK
@@ -8551,7 +8551,7 @@ frxDAIEGP:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: EGP
   submarket: minor_pairs
   symbol: frxDAIEGP
@@ -8561,7 +8561,7 @@ frxDAIEUR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: EUR
   submarket: minor_pairs
   symbol: frxDAIEUR
@@ -8571,7 +8571,7 @@ frxDAIGBP:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: GBP
   submarket: minor_pairs
   symbol: frxDAIGBP
@@ -8581,7 +8581,7 @@ frxDAIHKD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: HKD
   submarket: minor_pairs
   symbol: frxDAIHKD
@@ -8591,7 +8591,7 @@ frxDAIIDR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxDAIIDR
@@ -8601,7 +8601,7 @@ frxDAIINR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: INR
   submarket: minor_pairs
   symbol: frxDAIINR
@@ -8611,7 +8611,7 @@ frxDAIJPY:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxDAIJPY
@@ -8621,7 +8621,7 @@ frxDAIKRW:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: KRW
   submarket: minor_pairs
   symbol: frxDAIKRW
@@ -8631,7 +8631,7 @@ frxDAIKWD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: KWD
   submarket: minor_pairs
   symbol: frxDAIKWD
@@ -8641,7 +8641,7 @@ frxDAIMXN:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: MXN
   submarket: minor_pairs
   symbol: frxDAIMXN
@@ -8651,7 +8651,7 @@ frxDAINOK:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxDAINOK
@@ -8661,7 +8661,7 @@ frxDAINZD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxDAINZD
@@ -8671,7 +8671,7 @@ frxDAIPLN:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxDAIPLN
@@ -8681,7 +8681,7 @@ frxDAIRUB:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: RUB
   submarket: minor_pairs
   symbol: frxDAIRUB
@@ -8691,7 +8691,7 @@ frxDAISAR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: SAR
   submarket: minor_pairs
   symbol: frxDAISAR
@@ -8701,7 +8701,7 @@ frxDAISEK:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxDAISEK
@@ -8711,7 +8711,7 @@ frxDAISGD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: SGD
   submarket: minor_pairs
   symbol: frxDAISGD
@@ -8721,7 +8721,7 @@ frxDAITRY:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: TRY
   submarket: minor_pairs
   symbol: frxDAITRY
@@ -8731,7 +8731,7 @@ frxDAIUSD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxDAIUSD
@@ -8741,7 +8741,7 @@ frxDAIXAG:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: XAG
   submarket: minor_pairs
   symbol: frxDAIXAG
@@ -8751,7 +8751,7 @@ frxDAIXAU:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: XAU
   submarket: minor_pairs
   symbol: frxDAIXAU
@@ -8761,7 +8761,7 @@ frxDAIZAR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxDAIZAR
@@ -8771,7 +8771,7 @@ frxDAIBRO:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: BRO
   submarket: minor_pairs
   symbol: frxDAIBRO
@@ -8781,7 +8781,7 @@ frxDAIXPD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: XPD
   submarket: minor_pairs
   symbol: frxDAIXPD
@@ -8791,7 +8791,7 @@ frxDAIXPT:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: XPT
   submarket: minor_pairs
   symbol: frxDAIXPT
@@ -8801,7 +8801,7 @@ frxTUSDAED:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: AED
   submarket: minor_pairs
   symbol: frxTUSDAED
@@ -8811,7 +8811,7 @@ frxTUSDAUD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: AUD
   submarket: minor_pairs
   symbol: frxTUSDAUD
@@ -8821,7 +8821,7 @@ frxTUSDBRL:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: BRL
   submarket: minor_pairs
   symbol: frxTUSDBRL
@@ -8831,7 +8831,7 @@ frxTUSDCAD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: CAD
   submarket: minor_pairs
   symbol: frxTUSDCAD
@@ -8841,7 +8841,7 @@ frxTUSDCHF:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: CHF
   submarket: minor_pairs
   symbol: frxTUSDCHF
@@ -8851,7 +8851,7 @@ frxTUSDCNY:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: CNY
   submarket: minor_pairs
   symbol: frxTUSDCNY
@@ -8861,7 +8861,7 @@ frxTUSDCZK:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: CZK
   submarket: minor_pairs
   symbol: frxTUSDCZK
@@ -8871,7 +8871,7 @@ frxTUSDEGP:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: EGP
   submarket: minor_pairs
   symbol: frxTUSDEGP
@@ -8881,7 +8881,7 @@ frxTUSDEUR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: EUR
   submarket: minor_pairs
   symbol: frxTUSDEUR
@@ -8891,7 +8891,7 @@ frxTUSDGBP:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: GBP
   submarket: minor_pairs
   symbol: frxTUSDGBP
@@ -8901,7 +8901,7 @@ frxTUSDHKD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: HKD
   submarket: minor_pairs
   symbol: frxTUSDHKD
@@ -8911,7 +8911,7 @@ frxTUSDIDR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxTUSDIDR
@@ -8921,7 +8921,7 @@ frxTUSDINR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: INR
   submarket: minor_pairs
   symbol: frxTUSDINR
@@ -8931,7 +8931,7 @@ frxTUSDJPY:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxTUSDJPY
@@ -8941,7 +8941,7 @@ frxTUSDKRW:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: KRW
   submarket: minor_pairs
   symbol: frxTUSDKRW
@@ -8951,7 +8951,7 @@ frxTUSDKWD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: KWD
   submarket: minor_pairs
   symbol: frxTUSDKWD
@@ -8961,7 +8961,7 @@ frxTUSDMXN:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: MXN
   submarket: minor_pairs
   symbol: frxTUSDMXN
@@ -8971,7 +8971,7 @@ frxTUSDNOK:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxTUSDNOK
@@ -8981,7 +8981,7 @@ frxTUSDNZD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: NZD
   submarket: minor_pairs
   symbol: frxTUSDNZD
@@ -8991,7 +8991,7 @@ frxTUSDPLN:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: PLN
   submarket: minor_pairs
   symbol: frxTUSDPLN
@@ -9001,7 +9001,7 @@ frxTUSDRUB:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: RUB
   submarket: minor_pairs
   symbol: frxTUSDRUB
@@ -9011,7 +9011,7 @@ frxTUSDSAR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: SAR
   submarket: minor_pairs
   symbol: frxTUSDSAR
@@ -9021,7 +9021,7 @@ frxTUSDSEK:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: SEK
   submarket: minor_pairs
   symbol: frxTUSDSEK
@@ -9031,7 +9031,7 @@ frxTUSDSGD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: SGD
   submarket: minor_pairs
   symbol: frxTUSDSGD
@@ -9041,7 +9041,7 @@ frxTUSDTRY:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: TRY
   submarket: minor_pairs
   symbol: frxTUSDTRY
@@ -9051,7 +9051,7 @@ frxTUSDUSD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: USD
   submarket: minor_pairs
   symbol: frxTUSDUSD
@@ -9061,7 +9061,7 @@ frxTUSDXAG:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: XAG
   submarket: minor_pairs
   symbol: frxTUSDXAG
@@ -9071,7 +9071,7 @@ frxTUSDXAU:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: XAU
   submarket: minor_pairs
   symbol: frxTUSDXAU
@@ -9081,7 +9081,7 @@ frxTUSDZAR:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: ZAR
   submarket: minor_pairs
   symbol: frxTUSDZAR
@@ -9091,7 +9091,7 @@ frxTUSDBRO:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: BRO
   submarket: minor_pairs
   symbol: frxTUSDBRO
@@ -9101,7 +9101,7 @@ frxTUSDXPD:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: XPD
   submarket: minor_pairs
   symbol: frxTUSDXPD
@@ -9111,7 +9111,7 @@ frxTUSDXPT:
   exchange_name: FOREX
   instrument_type: forex
   market: forex
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: XPT
   submarket: minor_pairs
   symbol: frxTUSDXPT
