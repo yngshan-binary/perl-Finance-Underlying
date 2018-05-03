@@ -4978,3 +4978,324 @@ frxLTCXPT:
   quoted_currency: XPT
   submarket: minor_pairs
   symbol: frxLTCXPT
+frxDAIAED:
+  asset: DAI
+  display_name: DAI/AED
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: AED
+  submarket: minor_pairs
+  symbol: frxDAIAED
+frxDAIAUD:
+  asset: DAI
+  display_name: DAI/AUD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: minor_pairs
+  symbol: frxDAIAUD
+frxDAIBRL:
+  asset: DAI
+  display_name: DAI/BRL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: BRL
+  submarket: minor_pairs
+  symbol: frxDAIBRL
+frxDAICAD:
+  asset: DAI
+  display_name: DAI/CAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: CAD
+  submarket: minor_pairs
+  symbol: frxDAICAD
+frxDAICHF:
+  asset: DAI
+  display_name: DAI/CHF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: minor_pairs
+  symbol: frxDAICHF
+frxDAICNY:
+  asset: DAI
+  display_name: DAI/CNY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: CNY
+  submarket: minor_pairs
+  symbol: frxDAICNY
+frxDAICZK:
+  asset: DAI
+  display_name: DAI/CZK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: CZK
+  submarket: minor_pairs
+  symbol: frxDAICZK
+frxDAIEGP:
+  asset: DAI
+  display_name: DAI/EGP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: EGP
+  submarket: minor_pairs
+  symbol: frxDAIEGP
+frxDAIEUR:
+  asset: DAI
+  display_name: DAI/EUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: minor_pairs
+  symbol: frxDAIEUR
+frxDAIGBP:
+  asset: DAI
+  display_name: DAI/GBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: GBP
+  submarket: minor_pairs
+  symbol: frxDAIGBP
+frxDAIHKD:
+  asset: DAI
+  display_name: DAI/HKD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: HKD
+  submarket: minor_pairs
+  symbol: frxDAIHKD
+frxDAIIDR:
+  asset: DAI
+  display_name: DAI/IDR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: IDR
+  submarket: minor_pairs
+  symbol: frxDAIIDR
+frxDAIINR:
+  asset: DAI
+  display_name: DAI/INR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: INR
+  submarket: minor_pairs
+  symbol: frxDAIINR
+frxDAIJPY:
+  asset: DAI
+  display_name: DAI/JPY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: minor_pairs
+  symbol: frxDAIJPY
+frxDAIKRW:
+  asset: DAI
+  display_name: DAI/KRW
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: KRW
+  submarket: minor_pairs
+  symbol: frxDAIKRW
+frxDAIKWD:
+  asset: DAI
+  display_name: DAI/KWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: KWD
+  submarket: minor_pairs
+  symbol: frxDAIKWD
+frxDAIMXN:
+  asset: DAI
+  display_name: DAI/MXN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: MXN
+  submarket: minor_pairs
+  symbol: frxDAIMXN
+frxDAINOK:
+  asset: DAI
+  display_name: DAI/NOK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: NOK
+  submarket: minor_pairs
+  symbol: frxDAINOK
+frxDAINZD:
+  asset: DAI
+  display_name: DAI/NZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: NZD
+  submarket: minor_pairs
+  symbol: frxDAINZD
+frxDAIPLN:
+  asset: DAI
+  display_name: DAI/PLN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: PLN
+  submarket: minor_pairs
+  symbol: frxDAIPLN
+frxDAIRUB:
+  asset: DAI
+  display_name: DAI/RUB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: RUB
+  submarket: minor_pairs
+  symbol: frxDAIRUB
+frxDAISAR:
+  asset: DAI
+  display_name: DAI/SAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: SAR
+  submarket: minor_pairs
+  symbol: frxDAISAR
+frxDAISEK:
+  asset: DAI
+  display_name: DAI/SEK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: SEK
+  submarket: minor_pairs
+  symbol: frxDAISEK
+frxDAISGD:
+  asset: DAI
+  display_name: DAI/SGD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: SGD
+  submarket: minor_pairs
+  symbol: frxDAISGD
+frxDAITRY:
+  asset: DAI
+  display_name: DAI/TRY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: TRY
+  submarket: minor_pairs
+  symbol: frxDAITRY
+frxDAIUSD:
+  asset: DAI
+  display_name: DAI/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxDAIUSD
+frxDAIXAG:
+  asset: DAI
+  display_name: DAI/XAG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: XAG
+  submarket: minor_pairs
+  symbol: frxDAIXAG
+frxDAIXAU:
+  asset: DAI
+  display_name: DAI/XAU
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: XAU
+  submarket: minor_pairs
+  symbol: frxDAIXAU
+frxDAIZAR:
+  asset: DAI
+  display_name: DAI/ZAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: ZAR
+  submarket: minor_pairs
+  symbol: frxDAIZAR
+frxDAIBRO:
+  asset: DAI
+  display_name: DAI/BRO
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: BRO
+  submarket: minor_pairs
+  symbol: frxDAIBRO
+frxDAIXPD:
+  asset: DAI
+  display_name: DAI/XPD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: XPD
+  submarket: minor_pairs
+  symbol: frxDAIXPD
+frxDAIXPT:
+  asset: DAI
+  display_name: DAI/XPT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  pip_size: 0.01
+  quoted_currency: XPT
+  submarket: minor_pairs
+  symbol: frxDAIXPT
+
