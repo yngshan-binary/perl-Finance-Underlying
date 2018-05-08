@@ -1051,6 +1051,45 @@ OTC_AS51:
   quoted_currency: AUD
   submarket: otc_index
   symbol: OTC_AS51
+OTC_AS51_INVAST:
+  asset: OTC_AS51_INVAST
+  display_name: Australian OTC Index
+  exchange_name: ASX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: otc_index
+  symbol: OTC_AS51_INVAST
+OTC_AS51_CFH:
+  asset: OTC_AS51_CFH
+  display_name: Australian OTC Index
+  exchange_name: ASX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: otc_index
+  symbol: OTC_AS51_CFH
+OTC_AS51_FXO:
+  asset: OTC_AS51_FXO
+  display_name: Australian OTC Index
+  exchange_name: ASX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: otc_index
+  symbol: OTC_AS51_FXO
 OTC_BFX:
   asset: OTC_BFX
   display_name: Belgian OTC Index
@@ -1116,6 +1155,45 @@ OTC_DJI:
   quoted_currency: USD
   submarket: otc_index
   symbol: OTC_DJI
+OTC_DJI_CFH:
+  asset: OTC_DJI_CFH
+  display_name: Wall Street OTC Index
+  exchange_name: NYSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_DJI_CFH
+OTC_DJI_FXO:
+  asset: OTC_DJI_FXO
+  display_name: Wall Street OTC Index
+  exchange_name: NYSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_DJI_FXO
+OTC_DJI_GBE:
+  asset: OTC_DJI_GBE
+  display_name: Wall Street OTC Index
+  exchange_name: NYSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_DJI_GBE
 OTC_FCHI:
   asset: OTC_FCHI
   display_name: French OTC Index
@@ -1129,6 +1207,45 @@ OTC_FCHI:
   quoted_currency: EUR
   submarket: otc_index
   symbol: OTC_FCHI
+OTC_FCHI_INVAST:
+  asset: OTC_FCHI_INVAST
+  display_name: French OTC Index
+  exchange_name: EURONEXT_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_FCHI_INVAST
+OTC_FCHI_CFH:
+  asset: OTC_FCHI_CFH
+  display_name: French OTC Index
+  exchange_name: EURONEXT_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_FCHI_CFH
+OTC_FCHI_FXO:
+  asset: OTC_FCHI_FXO
+  display_name: French OTC Index
+  exchange_name: EURONEXT_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_FCHI_FXO
 OTC_FTSE:
   asset: OTC_FTSE
   display_name: UK OTC Index
@@ -1142,6 +1259,45 @@ OTC_FTSE:
   quoted_currency: GBP
   submarket: otc_index
   symbol: OTC_FTSE
+OTC_FTSE_INVAST:
+  asset: OTC_FTSE_INVAST
+  display_name: UK OTC Index
+  exchange_name: LSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: GBP
+  submarket: otc_index
+  symbol: OTC_FTSE_INVAST
+OTC_FTSE_CFH:
+  asset: OTC_FTSE_CFH
+  display_name: UK OTC Index
+  exchange_name: LSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: GBP
+  submarket: otc_index
+  symbol: OTC_FTSE_CFH
+OTC_FTSE_FXO:
+  asset: OTC_FTSE_FXO
+  display_name: UK OTC Index
+  exchange_name: LSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: GBP
+  submarket: otc_index
+  symbol: OTC_FTSE_FXO
 OTC_FTSEMIB:
   asset: OTC_FTSEMIB
   display_name: Italian OTC Index
@@ -1168,6 +1324,45 @@ OTC_GDAXI:
   quoted_currency: EUR
   submarket: otc_index
   symbol: OTC_GDAXI
+OTC_GDAXI_CFH:
+  asset: OTC_GDAXI_CFH
+  display_name: German OTC Index
+  exchange_name: FSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_GDAXI_CFH
+OTC_GDAXI_FXO:
+  asset: OTC_GDAXI_FXO
+  display_name: German OTC Index
+  exchange_name: FSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_GDAXI_FXO
+OTC_GDAXI_GBE:
+  asset: OTC_GDAXI_GBE
+  display_name: German OTC Index
+  exchange_name: FSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_GDAXI_GBE
 OTC_HSI:
   asset: OTC_HSI
   display_name: Hong Kong OTC Index
@@ -1181,6 +1376,32 @@ OTC_HSI:
   quoted_currency: HKD
   submarket: otc_index
   symbol: OTC_HSI
+OTC_HSI_INVAST:
+  asset: OTC_HSI_INVAST
+  display_name: Hong Kong OTC Index
+  exchange_name: HKSE
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: HKD
+  submarket: otc_index
+  symbol: OTC_HSI_INVAST
+OTC_HSI_CFH:
+  asset: OTC_HSI_CFH
+  display_name: Hong Kong OTC Index
+  exchange_name: HKSE
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: HKD
+  submarket: otc_index
+  symbol: OTC_HSI_CFH
 OTC_IBEX35:
   asset: OTC_IBEX35
   display_name: Spanish OTC Index
@@ -1194,6 +1415,19 @@ OTC_IBEX35:
   quoted_currency: EUR
   submarket: otc_index
   symbol: OTC_IBEX35
+OTC_IBEX35_CFH:
+  asset: OTC_IBEX35_CFH
+  display_name: Spanish OTC Index
+  exchange_name: BM_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_IBEX35_CFH
 OTC_IBOV:
   asset: OTC_IBOV
   display_name: Brazilian OTC Index
@@ -1324,6 +1558,45 @@ OTC_N225:
   quoted_currency: JPY
   submarket: otc_index
   symbol: OTC_N225
+OTC_N225_CFH:
+  asset: OTC_N225_CFH
+  display_name: Japanese OTC Index
+  exchange_name: TSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: otc_index
+  symbol: OTC_N225_CFH
+OTC_N225_FXO:
+  asset: OTC_N225_FXO
+  display_name: Japanese OTC Index
+  exchange_name: TSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: otc_index
+  symbol: OTC_N225_FXO
+OTC_N225_GBE:
+  asset: OTC_N225_GBE
+  display_name: Japanese OTC Index
+  exchange_name: TSE_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: otc_index
+  symbol: OTC_N225_GBE
 OTC_NIFTY:
   asset: OTC_NIFTY
   display_name: Indian 50 OTC Index
@@ -1415,6 +1688,32 @@ OTC_SHSZ300:
   quoted_currency: CNY
   submarket: otc_index
   symbol: OTC_SHSZ300
+OTC_SSMI_GBE:
+  asset: OTC_SSMI_GBE
+  display_name: Swiss OTC Index
+  exchange_name: SWX
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: europe_africa
+  symbol: OTC_SSMI_GBE
+OTC_STI_INVAST:
+  asset: OTC_STI_INVAST
+  display_name: Singapore OTC Index
+  exchange_name: SES
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: SGD
+  submarket: asia_oceania
+  symbol: OTC_STI_INVAST
 OTC_SPC:
   asset: OTC_SPC
   display_name: US OTC Index
@@ -1428,6 +1727,45 @@ OTC_SPC:
   quoted_currency: USD
   submarket: otc_index
   symbol: OTC_SPC
+OTC_SPC_CFH:
+  asset: OTC_SPC_CFH
+  display_name: US OTC Index
+  exchange_name: NYSE_SPC_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_SPC_CFH
+OTC_SPC_FXO:
+  asset: OTC_SPC_FXO
+  display_name: US OTC Index
+  exchange_name: NYSE_SPC_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_SPC_FXO
+OTC_SPC_GBE:
+  asset: OTC_SPC_GBE
+  display_name: US OTC Index
+  exchange_name: NYSE_SPC_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_SPC_GBE
 OTC_SPC100:
   asset: OTC_SPC100
   display_name: US 100 OTC Index
@@ -1441,6 +1779,45 @@ OTC_SPC100:
   quoted_currency: USD
   submarket: otc_index
   symbol: OTC_SPC100
+OTC_SPC100_CFH:
+  asset: OTC_SPC100_CFH
+  display_name: US 100 OTC Index
+  exchange_name: NYSE_SPC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_SPC100_CFH
+OTC_SPC100_FXO:
+  asset: OTC_SPC100_FXO
+  display_name: US 100 OTC Index
+  exchange_name: NYSE_SPC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_SPC100_FXO
+OTC_SPC100_GBE:
+  asset: OTC_SPC100_GBE
+  display_name: US 100 OTC Index
+  exchange_name: NYSE_SPC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_SPC100_GBE
 OTC_SPTSX60:
   asset: OTC_SPTSX60
   display_name: Canadian OTC Index
@@ -1480,6 +1857,45 @@ OTC_SX5E:
   quoted_currency: EUR
   submarket: otc_index
   symbol: OTC_SX5E
+OTC_SX5E_INVAST:
+  asset: OTC_SX5E_INVAST
+  display_name: Euro 50 OTC Index
+  exchange_name: STOXX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_SX5E_INVAST
+OTC_SX5E_CFH:
+  asset: OTC_SX5E_CFH
+  display_name: Euro 50 OTC Index
+  exchange_name: STOXX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_SX5E_CFH
+OTC_SX5E_FXO:
+  asset: OTC_SX5E_FXO
+  display_name: Euro 50 OTC Index
+  exchange_name: STOXX_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: otc_index
+  symbol: OTC_SX5E_FXO
 OTC_SZSECOMP:
   asset: OTC_SZSECOMP
   display_name: Shenzhen OTC Index
