@@ -3,11 +3,15 @@ package Finance::Underlying;
 use strict;
 use warnings;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 =head1 NAME
 
 Finance::Underlying - Object representation of a financial asset
+
+=head1 VERSION
+
+version 0.002
 
 =head1 SYNOPSIS
 
