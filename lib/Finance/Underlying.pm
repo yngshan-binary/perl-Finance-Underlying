@@ -131,8 +131,6 @@ Categorises the underlying, available values are:
 
 =item * future
 
-=item * individualstock
-
 =item * smart_fx
 
 =item * stockindex
@@ -162,8 +160,6 @@ This will be one of the following:
 =item * futures
 
 =item * indices
-
-=item * stocks
 
 =item * volidx
 
@@ -272,7 +268,7 @@ has pip_size => (
 =head2 quoted_currency
 
 The second half of a forex pair - indicates the currency that this underlying is quoted in,
-or the currency in which a stock or stock index is quoted.
+or the currency in which a stock index is quoted.
 
 =cut
 
