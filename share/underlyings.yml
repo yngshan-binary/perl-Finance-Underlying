@@ -1509,7 +1509,7 @@ OTC_SPC_GBE:
 OTC_SPC100:
   asset: OTC_SPC100
   display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC
+  exchange_name: NYSE_SPC_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
