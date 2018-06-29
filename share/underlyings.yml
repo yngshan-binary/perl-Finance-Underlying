@@ -1301,7 +1301,7 @@ OTC_GDAXI_GBE:
 OTC_HSI:
   asset: OTC_HSI
   display_name: Hong Kong OTC Index
-  exchange_name: HKSE
+  exchange_name: HKSE_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -1418,7 +1418,7 @@ OTC_N225_GBE:
 OTC_SSMI:
   asset: OTC_SSMI
   display_name: Swiss OTC Index
-  exchange_name: SWX
+  exchange_name: SWX_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
