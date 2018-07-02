@@ -1363,6 +1363,58 @@ OTC_IBEX35_CFH:
   quoted_currency: EUR
   submarket: otc_index
   symbol: OTC_IBEX35_CFH
+OTC_NDX:
+  asset: OTC_NDX
+  display_name: US Tech 100 OTC Index
+  exchange_name: NASDAQ_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_NDX
+OTC_NDX_CFH:
+  asset: OTC_NDX_CFH
+  display_name: US Tech 100 OTC Index
+  exchange_name: NASDAQ_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_NDX_CFH
+OTC_NDX_FXO:
+  asset: OTC_NDX_FXO
+  display_name: US Tech 100 OTC Index
+  exchange_name: NASDAQ_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_NDX_FXO
+OTC_NDX_GBE:
+  asset: OTC_NDX_GBE
+  display_name: US Tech 100 OTC Index
+  exchange_name: NASDAQ_OTC
+  instrument_type: stockindex
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: otc_index
+  symbol: OTC_NDX_GBE
 OTC_N225:
   asset: OTC_N225
   display_name: Japanese OTC Index
@@ -1506,58 +1558,6 @@ OTC_SPC_GBE:
   quoted_currency: USD
   submarket: otc_index
   symbol: OTC_SPC_GBE
-OTC_SPC100:
-  asset: OTC_SPC100
-  display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC_OTC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_SPC100
-OTC_SPC100_CFH:
-  asset: OTC_SPC100_CFH
-  display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_SPC100_CFH
-OTC_SPC100_FXO:
-  asset: OTC_SPC100_FXO
-  display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_SPC100_FXO
-OTC_SPC100_GBE:
-  asset: OTC_SPC100_GBE
-  display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_SPC100_GBE
 OTC_SX5E:
   asset: OTC_SX5E
   display_name: Euro 50 OTC Index
