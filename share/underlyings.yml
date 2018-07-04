@@ -1478,7 +1478,7 @@ OTC_SSMI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: CHF
-  submarket: europe_africa
+  submarket: otc_index
   symbol: OTC_SSMI
 OTC_SSMI_GBE:
   asset: OTC_SSMI_GBE
