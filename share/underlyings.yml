@@ -1090,58 +1090,6 @@ OTC_AS51_FXO:
   quoted_currency: AUD
   submarket: otc_index
   symbol: OTC_AS51_FXO
-OTC_BFX:
-  asset: OTC_BFX
-  display_name: Belgian OTC Index
-  exchange_name: EURONEXT
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: otc_index
-  symbol: OTC_BFX
-OTC_BIST100:
-  asset: OTC_BIST100
-  display_name: Istanbul OTC Index
-  exchange_name: BIS
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: TRY
-  submarket: otc_index
-  symbol: OTC_BIST100
-OTC_BSESENSEX30:
-  asset: OTC_BSESENSEX30
-  display_name: Bombay OTC Index
-  exchange_name: BSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: INR
-  submarket: otc_index
-  symbol: OTC_BSESENSEX30
-OTC_DFMGI:
-  asset: OTC_DFMGI
-  display_name: Dubai OTC Index
-  exchange_name: DFM
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: AED
-  submarket: otc_index
-  symbol: OTC_DFMGI
 OTC_DJI:
   asset: OTC_DJI
   display_name: Wall Street OTC Index
@@ -1298,19 +1246,6 @@ OTC_FTSE_FXO:
   quoted_currency: GBP
   submarket: otc_index
   symbol: OTC_FTSE_FXO
-OTC_FTSEMIB:
-  asset: OTC_FTSEMIB
-  display_name: Italian OTC Index
-  exchange_name: BI
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: otc_index
-  symbol: OTC_FTSEMIB
 OTC_GDAXI:
   asset: OTC_GDAXI
   display_name: German OTC Index
@@ -1366,7 +1301,7 @@ OTC_GDAXI_GBE:
 OTC_HSI:
   asset: OTC_HSI
   display_name: Hong Kong OTC Index
-  exchange_name: HKSE
+  exchange_name: HKSE_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -1428,36 +1363,10 @@ OTC_IBEX35_CFH:
   quoted_currency: EUR
   submarket: otc_index
   symbol: OTC_IBEX35_CFH
-OTC_IBOV:
-  asset: OTC_IBOV
-  display_name: Brazilian OTC Index
-  exchange_name: BOVESPA
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: BRL
-  submarket: otc_index
-  symbol: OTC_IBOV
-OTC_ISEQ:
-  asset: OTC_ISEQ
-  display_name: Irish OTC Index
-  exchange_name: ISE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: europe_africa
-  symbol: OTC_ISEQ
-OTC_IXIC:
-  asset: OTC_IXIC
-  display_name: US Tech OTC Index
-  exchange_name: NASDAQ_INDEX
+OTC_NDX:
+  asset: OTC_NDX
+  display_name: US Tech 100 OTC Index
+  exchange_name: NASDAQ_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
@@ -1466,85 +1375,46 @@ OTC_IXIC:
   pip_size: 0.01
   quoted_currency: USD
   submarket: otc_index
-  symbol: OTC_IXIC
-OTC_JCI:
-  asset: OTC_JCI
-  display_name: Jakarta OTC Index
-  exchange_name: JSC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.001
-  quoted_currency: IDR
-  submarket: otc_index
-  symbol: OTC_JCI
-OTC_KOSPI2:
-  asset: OTC_KOSPI2
-  display_name: Korean OTC Index
-  exchange_name: KRX
+  symbol: OTC_NDX
+OTC_NDX_CFH:
+  asset: OTC_NDX_CFH
+  display_name: US Tech 100 OTC Index
+  exchange_name: NASDAQ_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
   pip_size: 0.01
-  quoted_currency: KRW
+  quoted_currency: USD
   submarket: otc_index
-  symbol: OTC_KOSPI2
-OTC_KWSEIDX:
-  asset: OTC_KWSEIDX
-  display_name: Kuwait OTC Index
-  exchange_name: KSE
+  symbol: OTC_NDX_CFH
+OTC_NDX_FXO:
+  asset: OTC_NDX_FXO
+  display_name: US Tech 100 OTC Index
+  exchange_name: NASDAQ_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
   pip_size: 0.01
-  quoted_currency: KWD
+  quoted_currency: USD
   submarket: otc_index
-  symbol: OTC_KWSEIDX
-OTC_MICEX:
-  asset: OTC_MICEX
-  display_name: Russian 10 OTC Index
-  exchange_name: MICEX
+  symbol: OTC_NDX_FXO
+OTC_NDX_GBE:
+  asset: OTC_NDX_GBE
+  display_name: US Tech 100 OTC Index
+  exchange_name: NASDAQ_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
   pip_size: 0.01
-  quoted_currency: RUB
+  quoted_currency: USD
   submarket: otc_index
-  symbol: OTC_MICEX
-OTC_N100:
-  asset: OTC_N100
-  display_name: Euro 100 OTC Index
-  exchange_name: EURONEXT
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: otc_index
-  symbol: OTC_N100
-OTC_N150:
-  asset: OTC_N150
-  display_name: Euro 150 OTC Index
-  exchange_name: EURONEXT
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: otc_index
-  symbol: OTC_N150
+  symbol: OTC_NDX_GBE
 OTC_N225:
   asset: OTC_N225
   display_name: Japanese OTC Index
@@ -1597,97 +1467,19 @@ OTC_N225_GBE:
   quoted_currency: JPY
   submarket: otc_index
   symbol: OTC_N225_GBE
-OTC_NIFTY:
-  asset: OTC_NIFTY
-  display_name: Indian 50 OTC Index
-  exchange_name: NSE_OTC
+OTC_SSMI:
+  asset: OTC_SSMI
+  display_name: Swiss OTC Index
+  exchange_name: SWX_OTC
   instrument_type: stockindex
   market: indices
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
   pip_size: 0.01
-  quoted_currency: INR
+  quoted_currency: CHF
   submarket: otc_index
-  symbol: OTC_NIFTY
-OTC_OBX:
-  asset: OTC_OBX
-  display_name: Norwegian OTC Index
-  exchange_name: OSLO
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: NOK
-  submarket: otc_index
-  symbol: OTC_OBX
-OTC_OMXS30:
-  asset: OTC_OMXS30
-  display_name: Swedish OTC Index
-  exchange_name: OMX
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: SEK
-  submarket: otc_index
-  symbol: OTC_OMXS30
-OTC_PSI20:
-  asset: OTC_PSI20
-  display_name: Portuguese OTC Index
-  exchange_name: EURONEXT
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: otc_index
-  symbol: OTC_PSI20
-OTC_RTSI:
-  asset: OTC_RTSI
-  display_name: Russian Regular OTC Index
-  exchange_name: RTS
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_RTSI
-OTC_SASEIDX:
-  asset: OTC_SASEIDX
-  display_name: Saudi Arabia OTC Index
-  exchange_name: SAS
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: SAR
-  submarket: otc_index
-  symbol: OTC_SASEIDX
-OTC_SHSZ300:
-  asset: OTC_SHSZ300
-  display_name: Shenzhen 300 OTC Index
-  exchange_name: SZSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.001
-  quoted_currency: CNY
-  submarket: otc_index
-  symbol: OTC_SHSZ300
+  symbol: OTC_SSMI
 OTC_SSMI_GBE:
   asset: OTC_SSMI_GBE
   display_name: Swiss OTC Index
@@ -1766,84 +1558,6 @@ OTC_SPC_GBE:
   quoted_currency: USD
   submarket: otc_index
   symbol: OTC_SPC_GBE
-OTC_SPC100:
-  asset: OTC_SPC100
-  display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_SPC100
-OTC_SPC100_CFH:
-  asset: OTC_SPC100_CFH
-  display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_SPC100_CFH
-OTC_SPC100_FXO:
-  asset: OTC_SPC100_FXO
-  display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_SPC100_FXO
-OTC_SPC100_GBE:
-  asset: OTC_SPC100_GBE
-  display_name: US 100 OTC Index
-  exchange_name: NYSE_SPC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: otc_index
-  symbol: OTC_SPC100_GBE
-OTC_SPTSX60:
-  asset: OTC_SPTSX60
-  display_name: Canadian OTC Index
-  exchange_name: TRSE_OTC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: CAD
-  submarket: otc_index
-  symbol: OTC_SPTSX60
-OTC_SSECOMP:
-  asset: OTC_SSECOMP
-  display_name: Shanghai OTC Index
-  exchange_name: SSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.001
-  quoted_currency: CNY
-  submarket: otc_index
-  symbol: OTC_SSECOMP
 OTC_SX5E:
   asset: OTC_SX5E
   display_name: Euro 50 OTC Index
@@ -1896,32 +1610,6 @@ OTC_SX5E_FXO:
   quoted_currency: EUR
   submarket: otc_index
   symbol: OTC_SX5E_FXO
-OTC_SZSECOMP:
-  asset: OTC_SZSECOMP
-  display_name: Shenzhen OTC Index
-  exchange_name: SZSE
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.001
-  quoted_currency: CNY
-  submarket: otc_index
-  symbol: OTC_SZSECOMP
-OTC_TOP40:
-  asset: OTC_TOP40
-  display_name: South African OTC Index
-  exchange_name: JSE_OTC
-  instrument_type: stockindex
-  market: indices
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.01
-  quoted_currency: ZAR
-  submarket: otc_index
-  symbol: OTC_TOP40
 PSI20:
   asset: PSI20
   display_name: Portuguese Index
