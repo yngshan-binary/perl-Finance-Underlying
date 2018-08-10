@@ -390,7 +390,7 @@ OMXS30:
   symbol: OMXS30
 OTC_AEX:
   asset: OTC_AEX
-  display_name: Dutch OTC Index
+  display_name: Dutch Index
   exchange_name: EURONEXT_OTC
   instrument_type: stockindex
   market: indices
@@ -399,11 +399,11 @@ OTC_AEX:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_AEX
 OTC_AS51:
   asset: OTC_AS51
-  display_name: Australian OTC Index
+  display_name: Australian Index
   exchange_name: ASX_OTC
   instrument_type: stockindex
   market: indices
@@ -412,7 +412,7 @@ OTC_AS51:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: AUD
-  submarket: otc_index
+  submarket: asia_oceania
   symbol: OTC_AS51
 OTC_AS51_INVAST:
   asset: OTC_AS51_INVAST
@@ -455,7 +455,7 @@ OTC_AS51_FXO:
   symbol: OTC_AS51_FXO
 OTC_DJI:
   asset: OTC_DJI
-  display_name: Wall Street OTC Index
+  display_name: Wall Street Index
   exchange_name: NYSE_OTC
   instrument_type: stockindex
   market: indices
@@ -464,7 +464,7 @@ OTC_DJI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: USD
-  submarket: otc_index
+  submarket: americas
   symbol: OTC_DJI
 OTC_DJI_CFH:
   asset: OTC_DJI_CFH
@@ -507,7 +507,7 @@ OTC_DJI_GBE:
   symbol: OTC_DJI_GBE
 OTC_FCHI:
   asset: OTC_FCHI
-  display_name: French OTC Index
+  display_name: French Index
   exchange_name: EURONEXT_OTC
   instrument_type: stockindex
   market: indices
@@ -516,7 +516,7 @@ OTC_FCHI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_FCHI
 OTC_FCHI_INVAST:
   asset: OTC_FCHI_INVAST
@@ -559,7 +559,7 @@ OTC_FCHI_FXO:
   symbol: OTC_FCHI_FXO
 OTC_FTSE:
   asset: OTC_FTSE
-  display_name: UK OTC Index
+  display_name: UK Index
   exchange_name: LSE_OTC
   instrument_type: stockindex
   market: indices
@@ -568,7 +568,7 @@ OTC_FTSE:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: GBP
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_FTSE
 OTC_FTSE_INVAST:
   asset: OTC_FTSE_INVAST
@@ -611,7 +611,7 @@ OTC_FTSE_FXO:
   symbol: OTC_FTSE_FXO
 OTC_GDAXI:
   asset: OTC_GDAXI
-  display_name: German OTC Index
+  display_name: German Index
   exchange_name: FSE_OTC
   instrument_type: stockindex
   market: indices
@@ -620,7 +620,7 @@ OTC_GDAXI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_GDAXI
 OTC_GDAXI_CFH:
   asset: OTC_GDAXI_CFH
@@ -663,7 +663,7 @@ OTC_GDAXI_GBE:
   symbol: OTC_GDAXI_GBE
 OTC_HSI:
   asset: OTC_HSI
-  display_name: Hong Kong OTC Index
+  display_name: Hong Kong Index
   exchange_name: HKSE_OTC
   instrument_type: stockindex
   market: indices
@@ -672,7 +672,7 @@ OTC_HSI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: HKD
-  submarket: otc_index
+  submarket: asia_oceania
   symbol: OTC_HSI
 OTC_HSI_INVAST:
   asset: OTC_HSI_INVAST
@@ -702,7 +702,7 @@ OTC_HSI_CFH:
   symbol: OTC_HSI_CFH
 OTC_IBEX35:
   asset: OTC_IBEX35
-  display_name: Spanish OTC Index
+  display_name: Spanish Index
   exchange_name: BM_OTC
   instrument_type: stockindex
   market: indices
@@ -711,7 +711,7 @@ OTC_IBEX35:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_IBEX35
 OTC_IBEX35_CFH:
   asset: OTC_IBEX35_CFH
@@ -728,7 +728,7 @@ OTC_IBEX35_CFH:
   symbol: OTC_IBEX35_CFH
 OTC_NDX:
   asset: OTC_NDX
-  display_name: US Tech 100 OTC Index
+  display_name: US Tech 100 Index
   exchange_name: NASDAQ_OTC
   instrument_type: stockindex
   market: indices
@@ -737,7 +737,7 @@ OTC_NDX:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: USD
-  submarket: otc_index
+  submarket: americas
   symbol: OTC_NDX
 OTC_NDX_CFH:
   asset: OTC_NDX_CFH
@@ -780,7 +780,7 @@ OTC_NDX_GBE:
   symbol: OTC_NDX_GBE
 OTC_N225:
   asset: OTC_N225
-  display_name: Japanese OTC Index
+  display_name: Japanese Index
   exchange_name: TSE_OTC
   instrument_type: stockindex
   market: indices
@@ -789,7 +789,7 @@ OTC_N225:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: JPY
-  submarket: otc_index
+  submarket: asia_oceania
   symbol: OTC_N225
 OTC_N225_CFH:
   asset: OTC_N225_CFH
@@ -832,7 +832,7 @@ OTC_N225_GBE:
   symbol: OTC_N225_GBE
 OTC_SSMI:
   asset: OTC_SSMI
-  display_name: Swiss OTC Index
+  display_name: Swiss Index
   exchange_name: SWX_OTC
   instrument_type: stockindex
   market: indices
@@ -841,7 +841,7 @@ OTC_SSMI:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: CHF
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_SSMI
 OTC_SSMI_GBE:
   asset: OTC_SSMI_GBE
@@ -871,7 +871,7 @@ OTC_STI_INVAST:
   symbol: OTC_STI_INVAST
 OTC_SPC:
   asset: OTC_SPC
-  display_name: US OTC Index
+  display_name: US Index
   exchange_name: NYSE_SPC_OTC
   instrument_type: stockindex
   market: indices
@@ -880,7 +880,7 @@ OTC_SPC:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: USD
-  submarket: otc_index
+  submarket: americas
   symbol: OTC_SPC
 OTC_SPC_CFH:
   asset: OTC_SPC_CFH
@@ -923,7 +923,7 @@ OTC_SPC_GBE:
   symbol: OTC_SPC_GBE
 OTC_SX5E:
   asset: OTC_SX5E
-  display_name: Euro 50 OTC Index
+  display_name: Euro 50 Index
   exchange_name: STOXX_OTC
   instrument_type: stockindex
   market: indices
@@ -932,7 +932,7 @@ OTC_SX5E:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: EUR
-  submarket: otc_index
+  submarket: europe_africa
   symbol: OTC_SX5E
 OTC_SX5E_INVAST:
   asset: OTC_SX5E_INVAST
