@@ -465,7 +465,7 @@ OTC_DJI:
   pip_size: 0.01
   quoted_currency: USD
   submarket: americas_OTC
-  symbol: OTC_DJI_OTC
+  symbol: OTC_DJI
 OTC_DJI_CFH:
   asset: OTC_DJI_CFH
   display_name: Wall Street Index
