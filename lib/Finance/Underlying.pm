@@ -300,6 +300,17 @@ has symbol => (
     is => 'ro',
 );
 
+=head2 market_type
+
+financial or non_financial. Defaults to financial
+
+=cut
+
+has market_type => (
+    is      => 'ro',
+    default => 'financial'
+);
+
 {
     my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
     %underlyings = map { ; $_ => __PACKAGE__->new($param->{$_}) } keys %$param;
