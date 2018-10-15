@@ -999,6 +999,7 @@ RDBEAR:
   quoted_currency: ~
   submarket: random_daily
   symbol: RDBEAR
+  market_type: non_financial
 RDBULL:
   asset: RDBULL
   display_name: Bull Market Index
@@ -1012,6 +1013,7 @@ RDBULL:
   quoted_currency: ~
   submarket: random_daily
   symbol: RDBULL
+  market_type: non_financial
 RTSI:
   asset: RTSI
   display_name: Russian Regular Index
@@ -1038,6 +1040,7 @@ R_10:
   quoted_currency: ~
   submarket: random_index
   symbol: R_10
+  market_type: non_financial
 R_100:
   asset: R_100
   display_name: Volatility 100 Index
@@ -1051,6 +1054,7 @@ R_100:
   quoted_currency: ~
   submarket: random_index
   symbol: R_100
+  market_type: non_financial
 R_25:
   asset: R_25
   display_name: Volatility 25 Index
@@ -1064,6 +1068,7 @@ R_25:
   quoted_currency: ~
   submarket: random_index
   symbol: R_25
+  market_type: non_financial
 R_50:
   asset: R_50
   display_name: Volatility 50 Index
@@ -1077,6 +1082,7 @@ R_50:
   quoted_currency: ~
   submarket: random_index
   symbol: R_50
+  market_type: non_financial
 R_75:
   asset: R_75
   display_name: Volatility 75 Index
@@ -1090,6 +1096,7 @@ R_75:
   quoted_currency: ~
   submarket: random_index
   symbol: R_75
+  market_type: non_financial
 SASEIDX:
   asset: SASEIDX
   display_name: Saudi Arabia Index
