@@ -3686,7 +3686,7 @@ BOOM500:
   display_name: Fast 125 Index
   exchange_name: RANDOM
   instrument_type: stockindex
-  market: volidz
+  market: volidx
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
