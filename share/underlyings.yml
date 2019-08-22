@@ -3667,3 +3667,31 @@ BOOM500:
   submarket: crash_index
   symbol: BOOM500
   market_type: non_financial
+F_100:
+  asset: F_100
+  display_name: Fast 100 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: volidx
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: fast_index
+  symbol: F_100
+  market_type: non_financial
+F_125:
+  asset: F_125
+  display_name: Fast 125 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: volidz
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: fast_index
+  symbol: F_125
+  market_type: non_financial
