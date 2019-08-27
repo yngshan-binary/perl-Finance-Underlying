@@ -3678,7 +3678,7 @@ BOOM500:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: fast_index
+  submarket: random_index
   symbol: 1HZ10V
   market_type: non_financial
 1HZ100V:
@@ -3692,6 +3692,6 @@ BOOM500:
     delta_style: spot_delta
   pip_size: 0.01
   quoted_currency: ~
-  submarket: fast_index
+  submarket: random_index
   symbol: 1HZ100V
   market_type: non_financial
