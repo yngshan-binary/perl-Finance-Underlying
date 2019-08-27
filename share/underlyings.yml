@@ -3681,6 +3681,7 @@ BOOM500:
   submarket: random_index
   symbol: 1HZ10V
   market_type: non_financial
+  generation_interval: 1s
 1HZ100V:
   asset: 1HZ100V
   display_name: Volatility 100 1Hz
@@ -3695,3 +3696,4 @@ BOOM500:
   submarket: random_index
   symbol: 1HZ100V
   market_type: non_financial
+  generation_interval: 1s
