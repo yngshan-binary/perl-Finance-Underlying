@@ -3667,9 +3667,9 @@ BOOM500:
   submarket: crash_index
   symbol: BOOM500
   market_type: non_financial
-1HZ15V:
-  asset: 1HZ15V
-  display_name: Fast 15 Index
+1HZ10V:
+  asset: 1HZ10V
+  display_name: Fast 10 Index
   exchange_name: RANDOM
   instrument_type: stockindex
   market: volidx
@@ -3679,11 +3679,11 @@ BOOM500:
   pip_size: 0.01
   quoted_currency: ~
   submarket: fast_index
-  symbol: 1HZ15V
+  symbol: 1HZ10V
   market_type: non_financial
-1HZ150V:
-  asset: 1HZ150V
-  display_name: Fast 150 Index
+1HZ100V:
+  asset: 1HZ100V
+  display_name: Fast 100 Index
   exchange_name: RANDOM
   instrument_type: stockindex
   market: volidx
@@ -3693,5 +3693,5 @@ BOOM500:
   pip_size: 0.01
   quoted_currency: ~
   submarket: fast_index
-  symbol: 1HZ150V
+  symbol: 1HZ100V
   market_type: non_financial
