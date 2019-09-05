@@ -3695,3 +3695,243 @@ BOOM500:
   submarket: fast_index
   symbol: 1HZ100V
   market_type: non_financial
+cryIDKAED:
+  asset: IDK
+  display_name: IDK/AED
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: AED
+  submarket: stable_coin
+  symbol: cryIDKAED
+cryIDKAUD:
+  asset: IDK
+  display_name: IDK/AUD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: AUD
+  submarket: stable_coin
+  symbol: cryIDKAUD
+cryIDKCAD:
+  asset: IDK
+  display_name: IDK/CAD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: CAD
+  submarket: stable_coin
+  symbol: cryIDKCAD
+cryIDKCHF:
+  asset: IDK
+  display_name: IDK/CHF
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: stable_coin
+  symbol: cryIDKCHF
+cryIDKEUR:
+  asset: IDK
+  display_name: IDK/EUR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: stable_coin
+  symbol: cryIDKEUR
+cryIDKGBP:
+  asset: IDK
+  display_name: IDK/GBP
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: GBP
+  submarket: stable_coin
+  symbol: cryIDKGBP
+cryIDKHKD:
+  asset: IDK
+  display_name: IDK/HKD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: HKD
+  submarket: stable_coin
+  symbol: cryIDKHKD
+cryIDKIDR:
+  asset: IDK
+  display_name: IDK/IDR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: IDR
+  submarket: stable_coin
+  symbol: cryIDKIDR
+cryIDKINR:
+  asset: IDK
+  display_name: IDK/INR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: INR
+  submarket: stable_coin
+  symbol: cryIDKINR
+cryIDKJPY:
+  asset: IDK
+  display_name: IDK/JPY
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: JPY
+  submarket: stable_coin
+  symbol: cryIDKJPY
+cryIDKMXN:
+  asset: IDK
+  display_name: IDK/MXN
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: MXN
+  submarket: stable_coin
+  symbol: cryIDKMXN
+cryIDKNOK:
+  asset: IDK
+  display_name: IDK/NOK
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: NOK
+  submarket: stable_coin
+  symbol: cryIDKNOK
+cryIDKNZD:
+  asset: IDK
+  display_name: IDK/NZD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: NZD
+  submarket: stable_coin
+  symbol: cryIDKNZD
+cryIDKPLN:
+  asset: IDK
+  display_name: IDK/PLN
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: PLN
+  submarket: stable_coin
+  symbol: cryIDKPLN
+cryIDKSEK:
+  asset: IDK
+  display_name: IDK/SEK
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: SEK
+  submarket: stable_coin
+  symbol: cryIDKSEK
+cryIDKSGD:
+  asset: IDK
+  display_name: IDK/SGD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: SGD
+  submarket: stable_coin
+  symbol: cryIDKSGD
+cryIDKTRY:
+  asset: IDK
+  display_name: IDK/TRY
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: TRY
+  submarket: stable_coin
+  symbol: cryIDKTRY
+cryIDKUSD:
+  asset: IDK
+  display_name: IDK/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryIDKUSD
+cryIDKXAG:
+  asset: IDK
+  display_name: IDK/XAG
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: XAG
+  submarket: stable_coin
+  symbol: cryIDKXAG
+cryIDKXAU:
+  asset: IDK
+  display_name: IDK/XAU
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: XAU
+  submarket: stable_coin
+  symbol: cryIDKXAU
+cryIDKZAR:
+  asset: IDK
+  display_name: IDK/ZAR
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: ZAR
+  submarket: stable_coin
+  symbol: cryIDKZAR
+cryIDKBRO:
+  asset: IDK
+  display_name: IDK/BRO
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: BRO
+  submarket: stable_coin
+  symbol: cryIDKBRO
+cryIDKXPD:
+  asset: IDK
+  display_name: IDK/XPD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: XPD
+  submarket: stable_coin
+  symbol: cryIDKXPD
+cryIDKXPT:
+  asset: IDK
+  display_name: IDK/XPT
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: XPT
+  submarket: stable_coin
+  symbol: cryIDKXPT
