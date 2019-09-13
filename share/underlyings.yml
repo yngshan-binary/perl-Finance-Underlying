@@ -1029,7 +1029,7 @@ RTSI:
   symbol: RTSI
 R_10:
   asset: R_10
-  display_name: Volatility 10 0.5Hz
+  display_name: Volatility 10 0.5s
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -1043,7 +1043,7 @@ R_10:
   market_type: non_financial
 R_100:
   asset: R_100
-  display_name: Volatility 100 0.5Hz
+  display_name: Volatility 100 0.5s
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -1057,7 +1057,7 @@ R_100:
   market_type: non_financial
 R_25:
   asset: R_25
-  display_name: Volatility 25 0.5Hz
+  display_name: Volatility 25 0.5s
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -1071,7 +1071,7 @@ R_25:
   market_type: non_financial
 R_50:
   asset: R_50
-  display_name: Volatility 50 0.5Hz
+  display_name: Volatility 50 0.5s
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -1085,7 +1085,7 @@ R_50:
   market_type: non_financial
 R_75:
   asset: R_75
-  display_name: Volatility 75 0.5Hz
+  display_name: Volatility 75 0.5s
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -3643,7 +3643,7 @@ BOOM500:
   market_type: non_financial
 1HZ10V:
   asset: 1HZ10V
-  display_name: Volatility 10 1Hz
+  display_name: Volatility 10 1s
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
@@ -3658,7 +3658,7 @@ BOOM500:
   generation_interval: 1s
 1HZ100V:
   asset: 1HZ100V
-  display_name: Volatility 100 1Hz
+  display_name: Volatility 100 1s
   exchange_name: RANDOM
   instrument_type: stockindex
   market: synthetic_index
