@@ -2208,7 +2208,7 @@ frxGBPNOK:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.00001
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxGBPNOK
@@ -2304,7 +2304,7 @@ frxGBPUSD:
     delta_premium_adjusted: 0
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.00001
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxGBPUSD
