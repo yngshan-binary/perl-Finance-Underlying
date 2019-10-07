@@ -2448,7 +2448,7 @@ frxUSDIDR:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 1
+  pip_size: 0.001
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxUSDIDR
@@ -3071,7 +3071,7 @@ cryIDKUSD:
   exchange_name: CRYPTOCURRENCY
   instrument_type: cryptocurrency
   market: cryptocurrency
-  pip_size: 1
+  pip_size: 0.001
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryIDKUSD
