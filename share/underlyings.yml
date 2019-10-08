@@ -2448,7 +2448,7 @@ frxUSDIDR:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.001
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxUSDIDR
@@ -3065,3 +3065,13 @@ BOOM500:
   submarket: fast_index
   symbol: 1HZ100V
   market_type: non_financial
+cryIDKUSD:
+  asset: IDK
+  display_name: IDK/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryIDKUSD
