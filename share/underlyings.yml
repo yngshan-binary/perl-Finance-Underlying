@@ -1446,7 +1446,7 @@ frxAUDIDR:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxAUDIDR
@@ -1510,7 +1510,7 @@ frxAUDNOK:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.00001
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxAUDNOK
@@ -1718,7 +1718,7 @@ frxCADJPY:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.001
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxCADJPY
@@ -1734,7 +1734,7 @@ frxCHFJPY:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.01
+  pip_size: 0.001
   quoted_currency: JPY
   submarket: minor_pairs
   symbol: frxCHFJPY
@@ -1846,7 +1846,7 @@ frxEURIDR:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxEURIDR
@@ -2118,7 +2118,7 @@ frxGBPIDR:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxGBPIDR
@@ -2182,7 +2182,7 @@ frxGBPNOK:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.00001
   quoted_currency: NOK
   submarket: minor_pairs
   symbol: frxGBPNOK
@@ -2278,7 +2278,7 @@ frxGBPUSD:
     delta_premium_adjusted: 0
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.00001
   quoted_currency: USD
   submarket: major_pairs
   symbol: frxGBPUSD
@@ -2422,7 +2422,7 @@ frxUSDIDR:
     delta_premium_adjusted: 1
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.001
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxUSDIDR
@@ -2726,7 +2726,7 @@ frxXPDEUR:
     delta_premium_adjusted: 0
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: EUR
   submarket: metals
   symbol: frxXPDEUR
@@ -2790,7 +2790,7 @@ frxXPTEUR:
     delta_premium_adjusted: 0
     delta_style: spot_delta
     rr: call-put
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: EUR
   submarket: metals
   symbol: frxXPTEUR
@@ -2826,36 +2826,6 @@ frxXPTUSD:
   quoted_currency: USD
   submarket: metals
   symbol: frxXPTUSD
-cryBCHAUD:
-  asset: BCH
-  display_name: BCH/AUD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: AUD
-  submarket: non_stable_coin
-  symbol: cryBCHAUD
-cryBCHEUR:
-  asset: BCH
-  display_name: BCH/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryBCHEUR
-cryBCHGBP:
-  asset: BCH
-  display_name: BCH/GBP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: GBP
-  submarket: non_stable_coin
-  symbol: cryBCHGBP
 cryBCHUSD:
   asset: BCH
   display_name: BCH/USD
@@ -2866,36 +2836,6 @@ cryBCHUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBCHUSD
-cryBTCAUD:
-  asset: BTC
-  display_name: BTC/AUD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: AUD
-  submarket: non_stable_coin
-  symbol: cryBTCAUD
-cryBTCEUR:
-  asset: BTC
-  display_name: BTC/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryBTCEUR
-cryBTCGBP:
-  asset: BTC
-  display_name: BTC/GBP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: GBP
-  submarket: non_stable_coin
-  symbol: cryBTCGBP
 cryBTCUSD:
   asset: BTC
   display_name: BTC/USD
@@ -2906,76 +2846,6 @@ cryBTCUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryBTCUSD
-cryETCAUD:
-  asset: ETC
-  display_name: ETC/AUD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: AUD
-  submarket: non_stable_coin
-  symbol: cryETCAUD
-cryETCEUR:
-  asset: ETC
-  display_name: ETC/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryETCEUR
-cryETCGBP:
-  asset: ETC
-  display_name: ETC/GBP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: GBP
-  submarket: non_stable_coin
-  symbol: cryETCGBP
-cryETCUSD:
-  asset: ETC
-  display_name: ETC/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: USD
-  submarket: non_stable_coin
-  symbol: cryETCUSD
-cryETHAUD:
-  asset: ETH
-  display_name: ETH/AUD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: AUD
-  submarket: non_stable_coin
-  symbol: cryETHAUD
-cryETHEUR:
-  asset: ETH
-  display_name: ETH/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryETHEUR
-cryETHGBP:
-  asset: ETH
-  display_name: ETH/GBP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: GBP
-  submarket: non_stable_coin
-  symbol: cryETHGBP
 cryETHUSD:
   asset: ETH
   display_name: ETH/USD
@@ -2986,36 +2856,6 @@ cryETHUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryETHUSD
-cryLTCAUD:
-  asset: LTC
-  display_name: LTC/AUD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: AUD
-  submarket: non_stable_coin
-  symbol: cryLTCAUD
-cryLTCEUR:
-  asset: LTC
-  display_name: LTC/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: EUR
-  submarket: non_stable_coin
-  symbol: cryLTCEUR
-cryLTCGBP:
-  asset: LTC
-  display_name: LTC/GBP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.0001
-  quoted_currency: GBP
-  submarket: non_stable_coin
-  symbol: cryLTCGBP
 cryLTCUSD:
   asset: LTC
   display_name: LTC/USD
@@ -3026,176 +2866,6 @@ cryLTCUSD:
   quoted_currency: USD
   submarket: non_stable_coin
   symbol: cryLTCUSD
-cryUSTAED:
-  asset: UST
-  display_name: UST/AED
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: AED
-  submarket: stable_coin
-  symbol: cryUSTAED
-cryUSTAUD:
-  asset: UST
-  display_name: UST/AUD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: AUD
-  submarket: stable_coin
-  symbol: cryUSTAUD
-cryUSTCAD:
-  asset: UST
-  display_name: UST/CAD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: CAD
-  submarket: stable_coin
-  symbol: cryUSTCAD
-cryUSTCHF:
-  asset: UST
-  display_name: UST/CHF
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: CHF
-  submarket: stable_coin
-  symbol: cryUSTCHF
-cryUSTEUR:
-  asset: UST
-  display_name: UST/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: stable_coin
-  symbol: cryUSTEUR
-cryUSTGBP:
-  asset: UST
-  display_name: UST/GBP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: GBP
-  submarket: stable_coin
-  symbol: cryUSTGBP
-cryUSTHKD:
-  asset: UST
-  display_name: UST/HKD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: HKD
-  submarket: stable_coin
-  symbol: cryUSTHKD
-cryUSTIDR:
-  asset: UST
-  display_name: UST/IDR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: IDR
-  submarket: stable_coin
-  symbol: cryUSTIDR
-cryUSTINR:
-  asset: UST
-  display_name: UST/INR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: INR
-  submarket: stable_coin
-  symbol: cryUSTINR
-cryUSTJPY:
-  asset: UST
-  display_name: UST/JPY
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: JPY
-  submarket: stable_coin
-  symbol: cryUSTJPY
-cryUSTMXN:
-  asset: UST
-  display_name: UST/MXN
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: MXN
-  submarket: stable_coin
-  symbol: cryUSTMXN
-cryUSTNOK:
-  asset: UST
-  display_name: UST/NOK
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: NOK
-  submarket: stable_coin
-  symbol: cryUSTNOK
-cryUSTNZD:
-  asset: UST
-  display_name: UST/NZD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: NZD
-  submarket: stable_coin
-  symbol: cryUSTNZD
-cryUSTPLN:
-  asset: UST
-  display_name: UST/PLN
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: PLN
-  submarket: stable_coin
-  symbol: cryUSTPLN
-cryUSTSEK:
-  asset: UST
-  display_name: UST/SEK
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: SEK
-  submarket: stable_coin
-  symbol: cryUSTSEK
-cryUSTSGD:
-  asset: UST
-  display_name: UST/SGD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: SGD
-  submarket: stable_coin
-  symbol: cryUSTSGD
-cryUSTTRY:
-  asset: UST
-  display_name: UST/TRY
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: TRY
-  submarket: stable_coin
-  symbol: cryUSTTRY
 cryUSTUSD:
   asset: UST
   display_name: UST/USD
@@ -3206,306 +2876,6 @@ cryUSTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryUSTUSD
-cryUSTXAG:
-  asset: UST
-  display_name: UST/XAG
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: XAG
-  submarket: stable_coin
-  symbol: cryUSTXAG
-cryUSTXAU:
-  asset: UST
-  display_name: UST/XAU
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: XAU
-  submarket: stable_coin
-  symbol: cryUSTXAU
-cryUSTZAR:
-  asset: UST
-  display_name: UST/ZAR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: ZAR
-  submarket: stable_coin
-  symbol: cryUSTZAR
-cryUSTBRO:
-  asset: UST
-  display_name: UST/BRO
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: BRO
-  submarket: stable_coin
-  symbol: cryUSTBRO
-cryUSTXPD:
-  asset: UST
-  display_name: UST/XPD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: XPD
-  submarket: stable_coin
-  symbol: cryUSTXPD
-cryUSTXPT:
-  asset: UST
-  display_name: UST/XPT
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: XPT
-  submarket: stable_coin
-  symbol: cryUSTXPT
-cryUSBAED:
-  asset: USB
-  display_name: USB/AED
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: AED
-  submarket: stable_coin
-  symbol: cryUSBAED
-cryUSBAUD:
-  asset: USB
-  display_name: USB/AUD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: AUD
-  submarket: stable_coin
-  symbol: cryUSBAUD
-cryUSBCAD:
-  asset: USB
-  display_name: USB/CAD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: CAD
-  submarket: stable_coin
-  symbol: cryUSBCAD
-cryUSBCHF:
-  asset: USB
-  display_name: USB/CHF
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: CHF
-  submarket: stable_coin
-  symbol: cryUSBCHF
-cryUSBEUR:
-  asset: USB
-  display_name: USB/EUR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: EUR
-  submarket: stable_coin
-  symbol: cryUSBEUR
-cryUSBGBP:
-  asset: USB
-  display_name: USB/GBP
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: GBP
-  submarket: stable_coin
-  symbol: cryUSBGBP
-cryUSBHKD:
-  asset: USB
-  display_name: USB/HKD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: HKD
-  submarket: stable_coin
-  symbol: cryUSBHKD
-cryUSBIDR:
-  asset: USB
-  display_name: USB/IDR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: IDR
-  submarket: stable_coin
-  symbol: cryUSBIDR
-cryUSBINR:
-  asset: USB
-  display_name: USB/INR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: INR
-  submarket: stable_coin
-  symbol: cryUSBINR
-cryUSBJPY:
-  asset: USB
-  display_name: USB/JPY
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: JPY
-  submarket: stable_coin
-  symbol: cryUSBJPY
-cryUSBMXN:
-  asset: USB
-  display_name: USB/MXN
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: MXN
-  submarket: stable_coin
-  symbol: cryUSBMXN
-cryUSBNOK:
-  asset: USB
-  display_name: USB/NOK
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: NOK
-  submarket: stable_coin
-  symbol: cryUSBNOK
-cryUSBNZD:
-  asset: USB
-  display_name: USB/NZD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: NZD
-  submarket: stable_coin
-  symbol: cryUSBNZD
-cryUSBPLN:
-  asset: USB
-  display_name: USB/PLN
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: PLN
-  submarket: stable_coin
-  symbol: cryUSBPLN
-cryUSBSEK:
-  asset: USB
-  display_name: USB/SEK
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: SEK
-  submarket: stable_coin
-  symbol: cryUSBSEK
-cryUSBSGD:
-  asset: USB
-  display_name: USB/SGD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: SGD
-  submarket: stable_coin
-  symbol: cryUSBSGD
-cryUSBTRY:
-  asset: USB
-  display_name: USB/TRY
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: TRY
-  submarket: stable_coin
-  symbol: cryUSBTRY
-cryUSBUSD:
-  asset: USB
-  display_name: USB/USD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: USD
-  submarket: stable_coin
-  symbol: cryUSBUSD
-cryUSBXAG:
-  asset: USB
-  display_name: USB/XAG
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: XAG
-  submarket: stable_coin
-  symbol: cryUSBXAG
-cryUSBXAU:
-  asset: USB
-  display_name: USB/XAU
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: XAU
-  submarket: stable_coin
-  symbol: cryUSBXAU
-cryUSBZAR:
-  asset: USB
-  display_name: USB/ZAR
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: ZAR
-  submarket: stable_coin
-  symbol: cryUSBZAR
-cryUSBBRO:
-  asset: USB
-  display_name: USB/BRO
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: BRO
-  submarket: stable_coin
-  symbol: cryUSBBRO
-cryUSBXPD:
-  asset: USB
-  display_name: USB/XPD
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: XPD
-  submarket: stable_coin
-  symbol: cryUSBXPD
-cryUSBXPT:
-  asset: USB
-  display_name: USB/XPT
-  exchange_name: CRYPTOCURRENCY
-  instrument_type: cryptocurrency
-  market: cryptocurrency
-  pip_size: 0.01
-  quoted_currency: XPT
-  submarket: stable_coin
-  symbol: cryUSBXPT
 stpAUDUSD:
   asset: AUD
   display_name: AUD/USD Step Index
@@ -3671,3 +3041,13 @@ BOOM500:
   symbol: 1HZ100V
   market_type: non_financial
   generation_interval: 1s
+cryIDKUSD:
+  asset: IDK
+  display_name: IDK/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.001
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: cryIDKUSD
