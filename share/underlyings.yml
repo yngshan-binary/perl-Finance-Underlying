@@ -995,7 +995,7 @@ RDBEAR:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: random_daily
   symbol: RDBEAR
@@ -1009,7 +1009,7 @@ RDBULL:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: random_daily
   symbol: RDBULL
@@ -1036,7 +1036,7 @@ R_10:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
-  pip_size: 0.001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: random_index
   symbol: R_10
@@ -1064,7 +1064,7 @@ R_25:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
-  pip_size: 0.001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: random_index
   symbol: R_25
@@ -1078,7 +1078,7 @@ R_50:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: random_index
   symbol: R_50
@@ -1092,7 +1092,7 @@ R_75:
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
-  pip_size: 0.0001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: random_index
   symbol: R_75
@@ -2973,7 +2973,7 @@ CRASH1000:
   exchange_name: RANDOM
   instrument_type: ~
   market: synthetic_index
-  pip_size: 0.001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: crash_index
   symbol: CRASH1000
@@ -2984,7 +2984,7 @@ BOOM1000:
   exchange_name: RANDOM
   instrument_type: ~
   market: synthetic_index
-  pip_size: 0.001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: crash_index
   symbol: BOOM1000
@@ -2995,7 +2995,7 @@ CRASH500:
   exchange_name: RANDOM
   instrument_type: ~
   market: synthetic_index
-  pip_size: 0.001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: crash_index
   symbol: CRASH500
@@ -3006,7 +3006,7 @@ BOOM500:
   exchange_name: RANDOM
   instrument_type: ~
   market: synthetic_index
-  pip_size: 0.001
+  pip_size: 0.01
   quoted_currency: ~
   submarket: crash_index
   symbol: BOOM500
